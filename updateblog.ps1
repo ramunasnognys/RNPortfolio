@@ -97,15 +97,29 @@ try {
 
 # Step 5: Add changes to Git
 Write-Host "Staging changes for Git..."
+
+# Check for CSS changes
+$cssChanges = (git status --porcelain "static/css/*") -ne ""
+if ($cssChanges) {
+    Write-Host "CSS changes detected..."
+}
+
+# Add all changes including CSS
 $hasChanges = (git status --porcelain) -ne ""
 if (-not $hasChanges) {
     Write-Host "No changes to stage."
 } else {
+    Write-Host "Staging all changes including CSS updates..."
     git add .
 }
 
 # Step 6: Commit changes with a dynamic message
-$commitMessage = "New Blog Post on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
+$commitMessage = if ($cssChanges) {
+    "Updated Blog and CSS on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
+} else {
+    "New Blog Post on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
+}
+
 $hasStagedChanges = (git diff --cached --name-only) -ne ""
 if (-not $hasStagedChanges) {
     Write-Host "No changes to commit."
