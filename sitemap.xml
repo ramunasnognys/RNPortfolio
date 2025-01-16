@@ -5,10 +5,25 @@
     <loc>http://localhost:52800/tags/blog/</loc>
     <lastmod>2025-01-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:52800/tags/git/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:52800/tags/github/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:52800/tags/hostinger/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:52800/tags/hugo/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:52800/posts/i-love-chuck/</loc>
     <lastmod>2025-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:52800/tags/knowledge-management/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:52800/posts/my-insane-blog-pipeline/</loc>
     <lastmod>2025-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:52800/tags/new/</loc>
