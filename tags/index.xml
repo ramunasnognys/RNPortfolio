@@ -44,27 +44,6 @@
       <description></description>
     </item>
     <item>
-      <title>Task</title>
-      <link>http://localhost:52800/tags/task/</link>
-      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/task/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Example</title>
-      <link>http://localhost:52800/tags/example/</link>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/example/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Features</title>
-      <link>http://localhost:52800/tags/features/</link>
-      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/features/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Javascript</title>
       <link>http://localhost:52800/tags/javascript/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
