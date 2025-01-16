@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="content-wrapper">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    
+    <div class="project-grid">
+    {{ range .Pages }}
+        <article class="project-card">
+            {{ if .Params.icon }}
+            <div class="card-icon">
+                <img src="{{ .Params.icon }}" alt="{{ .Title }} icon" class="icon">
+            </div>
+            {{ end }}
+            <h2 class="card-title">{{ .Title }}</h2>
+            <p class="card-description">{{ .Description }}</p>
+            {{ if .Params.tags }}
+            <div class="card-tags">
+                {{ range .Params.tags }}
+                <span class="tag">{{ . }}</span>
+                {{ end }}
+            </div>
+            {{ end }}
+        </article>
+    {{ end }}
+    </div>
+</div>
+{{ end }}

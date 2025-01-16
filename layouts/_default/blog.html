@@ -1,0 +1,300 @@
+{{ define "main" }}
+<div class="blog-container">
+    <header class="blog-header">
+        <h1 class="blog-title">Blog</h1>
+        <p class="blog-description">This is where I share my writings on programming, tutorials, and my experiences.</p>
+    </header>
+    
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search articles" class="search-input">
+        <button class="search-button" onclick="clearSearch()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+        </button>
+    </div>
+
+    <div id="searchResults" class="blog-posts">
+        {{ range where .Site.RegularPages "Section" "blog" }}
+        <article class="blog-post" 
+            data-title="{{ lower .Title }}"
+            data-description="{{ lower .Description }}"
+            data-tags="{{ range .Params.tags }}{{ lower . }} {{ end }}"
+        >
+            <div class="post-meta">
+                <time>{{ .Date.Format "Jan 2 2006" }}</time>
+                <span class="read-time">• {{ .ReadingTime }} min read</span>
+            </div>
+            <div class="post-content">
+                <h2 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                {{ if .Description }}
+                <p class="post-description">{{ .Description }}</p>
+                {{ end }}
+                <div class="post-footer">
+                    <div class="post-tags">
+                        {{ range .Params.tags }}
+                        <span class="tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    <a href="{{ .RelPermalink }}" class="learn-more">Learn more →</a>
+                </div>
+            </div>
+        </article>
+        {{ end }}
+    </div>
+
+    <div id="noResults" class="no-results" style="display: none;">
+        <p>No posts found matching your search.</p>
+    </div>
+</div>
+
+<style>
+.blog-container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.blog-header {
+    margin-bottom: 3rem;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+.blog-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+    background: linear-gradient(120deg, var(--primary-color), var(--primary-hover));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blog-description {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.search-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    position: relative;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease 0.2s forwards;
+}
+
+.search-input {
+    flex: 1;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    background: var(--card-bg);
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.search-input:hover {
+    border-color: var(--primary-color);
+    background: var(--bg-secondary);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(var(--primary-rgb), 0.2);
+}
+
+.search-button {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 0.75rem;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.search-button:hover {
+    background: var(--bg-secondary);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.blog-posts {
+    display: grid;
+    gap: 2rem;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease 0.4s forwards;
+}
+
+.blog-post {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+}
+
+.blog-post:hover {
+    transform: translateY(-4px);
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.post-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+}
+
+.post-title {
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+}
+
+.post-title a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.post-title a:hover {
+    color: var(--primary-color);
+}
+
+.post-description {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.post-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.tag {
+    padding: 0.4rem 1rem;
+    border-radius: 100px;
+    font-size: 0.875rem;
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+}
+
+.tag:hover {
+    background: var(--primary-color);
+    color: var(--text-primary);
+}
+
+.learn-more {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.learn-more:hover {
+    color: var(--primary-hover);
+    transform: translateX(4px);
+}
+
+.no-results {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-secondary);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-container {
+        padding: 2rem 1rem;
+    }
+    
+    .blog-title {
+        font-size: 2.5rem;
+    }
+    
+    .blog-post {
+        padding: 1.5rem;
+    }
+}
+</style>
+
+<script>
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+function filterPosts(searchTerm) {
+    const posts = document.querySelectorAll('.blog-post');
+    const noResults = document.getElementById('noResults');
+    let hasResults = false;
+    
+    searchTerm = searchTerm.toLowerCase().trim();
+    
+    posts.forEach(post => {
+        const title = post.dataset.title;
+        const description = post.dataset.description;
+        const tags = post.dataset.tags;
+        
+        if (title.includes(searchTerm) || description.includes(searchTerm) || tags.includes(searchTerm)) {
+            post.style.display = 'block';
+            hasResults = true;
+        } else {
+            post.style.display = 'none';
+        }
+    });
+    
+    noResults.style.display = hasResults ? 'none' : 'block';
+}
+
+function clearSearch() {
+    const searchInput = document.getElementById('searchInput');
+    searchInput.value = '';
+    filterPosts('');
+}
+
+// Debounce the search to improve performance
+const debouncedSearch = debounce((e) => {
+    filterPosts(e.target.value);
+}, 300);
+
+// Add event listener
+document.getElementById('searchInput').addEventListener('input', debouncedSearch);
+</script>
+{{ end }}

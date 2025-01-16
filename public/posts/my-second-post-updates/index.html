@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my second post (updates) | Ramunas Nognys</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/theme.min.css">
+    
+    <link rel="stylesheet" href="/css/custom.min.21a09ab2ddcb81caa6b14db966b90b0292304a6a0aebbd91ec17ef392201df8a.css" integrity="sha256-IaCast3LgcqmsU25ZrkLApIwSmoK672R7BfvOSIB34o=">
+</head>
+<body>
+    <header class="header">
+    <div class="header-content">
+        <a href="/" class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="2" width="20" height="20" stroke="#7C3AED" stroke-width="2" fill="#7C3AED" fill-opacity="0.1"/>
+            </svg>
+            Ramunas Nognys
+        </a>
+        <nav class="nav-links">
+            <a href="/projects" class="nav-link">Projects</a>
+            <a href="/blog" class="nav-link">Blog</a>
+            <button class="theme-switch" id="theme-toggle" aria-label="Toggle theme">
+                <svg class="theme-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        
+<div class="content-wrapper">
+    <article class="post-single">
+        <header class="post-header">
+            <div class="post-meta">
+                
+                <time datetime="2025-01-07T00:00:00Z">
+                    January 7, 2025
+                </time>
+                
+                <span class="reading-time">• 100 words • 0 min read</span>
+            </div>
+            <h1 class="post-title">my second post (updates)</h1>
+            
+            
+            <div class="post-tags">
+                
+                <span class="tag">blog</span>
+                
+                <span class="tag">second-brain</span>
+                
+                <span class="tag">personal-growth</span>
+                
+                <span class="tag">knowledge-management</span>
+                
+                <span class="tag">new</span>
+                
+            </div>
+            
+        </header>
+
+        <div class="post-content">
+            <p><img src="/images/Pasted%20image%2020250108111916.png" alt="Pasted image 20250108111916.png"></p>
+
+        </div>
+
+        <nav class="post-nav">
+            
+            <a class="nav-prev" href="http://localhost:1313/posts/my-insane-blog-post/">
+                <div class="nav-indicator">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                    <span>Previous</span>
+                </div>
+                <span class="nav-title">my-insane-blog-post</span>
+            </a>
+            
+            
+            
+            <a class="nav-next" href="http://localhost:1313/posts/my-best-year-2026/">
+                <div class="nav-indicator">
+                    <span>Next</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </div>
+                <span class="nav-title">My best year 2026</span>
+            </a>
+            
+        </nav>
+    </article>
+
+    
+    <div class="table-of-contents">
+        <div class="toc-title">Table of Contents</div>
+        
+        
+        
+        <nav id="TableOfContents"></nav>
+    </div>
+    
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            const id = entry.target.getAttribute('id');
+            const tocLink = document.querySelector(`.table-of-contents nav a[href="#${id}"]`);
+            
+            if (tocLink) {
+                if (entry.intersectionRatio > 0) {
+                    document.querySelectorAll('.table-of-contents nav a').forEach(link => {
+                        link.classList.remove('active');
+                    });
+                    tocLink.classList.add('active');
+                }
+            }
+        });
+    }, {
+        rootMargin: '-20% 0px -80% 0px'
+    });
+
+    document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]').forEach((header) => {
+        observer.observe(header);
+    });
+});
+</script>
+
+    </main>
+    <footer class="footer">
+    <div class="content-wrapper">
+        <p>&copy; 2025 Ramunas Nognys. All rights reserved.</p>
+    </div>
+</footer>
+
+    
+    <script src="/js/theme.min.js"></script>
+</body>
+</html>

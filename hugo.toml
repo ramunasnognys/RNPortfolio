@@ -1,0 +1,37 @@
+baseURL = 'http://localhost:52800/'
+languageCode = 'en-us'
+title = 'Ramunas Nognys'
+
+# Enable features
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = true
+buildExpired = false
+
+[params]
+  # Theme settings
+  defaultTheme = "dark"
+  
+  # Profile mode
+  [params.profileMode]
+    enabled = true
+    title = "Hi I'm Hugo Lever, a developer and designer."
+    subtitle = "My goal is to deliver value to my clients by utilizing my expertise in software development and design to solve complex business problems."
+
+[menu]
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
+[markup.highlight]
+  noClasses = false
+
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"

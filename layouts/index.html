@@ -1,0 +1,736 @@
+{{ define "main" }}
+<button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+    <i id="theme-icon" class="fas fa-moon"></i>
+</button>
+<link rel="stylesheet" href="/css/cards.css">
+<script src="/js/cards.js" defer></script>
+<div class="hero-section">
+    <div class="hero-content">
+        <div class="hero-left">
+            <div class="profile-card">
+                <div class="avatar profile-image">
+                    <img src="/images/avatar.jpg" alt="Profile picture" />
+                </div>
+                <h2 class="name">Ramunas Nognys</h2>
+                <p class="title">AI Software Engineer</p>
+                <p class="location">Vilnius, Lithuania</p>
+                <div class="social-links">
+                    <a href="https://dribbble.com/yourusername" target="_blank" rel="noopener" aria-label="Dribbble" class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/yourusername" target="_blank" rel="noopener" aria-label="Twitter" class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://instagram.com/yourusername" target="_blank" rel="noopener" aria-label="Instagram" class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="mailto:your.email@example.com" target="_blank" rel="noopener" aria-label="Email" class="social-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                </div>
+                <a href="#contact" class="contact-button">Let's Talk</a>
+            </div>
+        </div>
+        <div class="hero-right">
+            <h1>
+                AI Software<br>
+                 <span class="highlight">Engineer</span>
+            </h1>
+            <p class="hero-description">
+                Passionate about leveraging cutting-edge AI technologies to build innovative open source solutions and SaaS products. 
+            </p>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>10+</h3>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3>20+</h3>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+            
+           
+        </div>
+    </div>
+</div>
+
+<style>
+.hero-section {
+    padding: 4rem 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 6rem;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-right {
+    padding-top: 2rem;
+    max-width: 700px;
+    text-align: left;
+}
+
+.title, .location, .hero-description {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+}
+
+.title {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.25rem;
+}
+
+.location {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.75rem;
+}
+
+.hero-description {
+    font-size: 0.75rem;
+    margin-bottom: 4rem;
+    text-align: left;
+    max-width: 420px;
+}
+
+.stats {
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 3rem;
+    justify-content: flex-start;
+}
+
+.stat-item {
+    text-align: left;
+}
+
+.stat-item p {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+}
+
+.trusted-by {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 3rem;
+    max-width: 700px;
+    text-align: left;
+}
+
+.company-logos {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    opacity: 0.7;
+    justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+    .hero-right {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .stats {
+        justify-content: center;
+    }
+
+    .stat-item {
+        text-align: center;
+    }
+
+    .trusted-by {
+        text-align: center;
+    }
+
+    .company-logos {
+        justify-content: center;
+    }
+
+    .hero-description {
+        margin: 0 auto 3rem;
+        max-width: 300px;
+    }
+
+    .title, .location {
+        font-size: 12px;
+    }
+
+    .hero-description {
+        font-size: 0.6875rem;
+        margin: 0 auto 3rem;
+        max-width: 300px;
+    }
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem;
+    background: rgba(32, 32, 32, 0.5);
+    border-radius: 24px;
+    backdrop-filter: blur(10px);
+}
+
+.profile-card {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-image {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    border-radius: 24px;
+    margin: 0 auto 2rem;
+    overflow: hidden;
+}
+
+.profile-image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        135deg,
+        rgba(255, 0, 255, 0.3) 0%,
+        rgba(138, 43, 226, 0.4) 50%,
+        rgba(106, 13, 173, 0.3) 100%
+    );
+    mix-blend-mode: color;
+    pointer-events: none;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: contrast(1.1) brightness(1.05);
+}
+
+@media (max-width: 768px) {
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+}
+
+.name {
+    font-size: 2rem; /* 32px */
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    width: 100%;
+}
+
+.profile-card .title {
+    font-size: 14px !important;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.25rem;
+    text-transform: none;
+}
+
+.profile-card .location {
+    font-size: 14px !important;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    margin-bottom: 0.75rem;
+    text-transform: none;
+}
+
+@media (max-width: 768px) {
+    .profile-card .title,
+    .profile-card .location {
+        font-size: 12px !important;
+    }
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 0.75rem 0;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.2s ease;
+}
+
+.social-icon:hover {
+    color: rgba(255, 255, 255, 0.9);
+    transform: translateY(-1px);
+}
+
+.social-icon svg {
+    width: 16px;
+    height: 16px;
+    stroke-width: 1.5;
+}
+
+@media (max-width: 768px) {
+    .social-links {
+        gap: 0.5rem;
+        margin: 0.5rem 0;
+    }
+    
+    .social-icon {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .social-icon svg {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+.hero-right h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    letter-spacing: -0.02em;
+}
+
+.highlight {
+    color: #8B5CF6;
+}
+
+.stat-item h3 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+}
+
+.contact-button {
+    display: inline-block;
+    background: #8B5CF6;
+    color: #fff;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    padding: 0.75rem 2.5rem;
+    border-radius: 100px;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+    width: auto;
+    max-width: 80%;
+}
+
+.contact-button:hover {
+    background: #7C3AED;
+    transform: translateY(-2px);
+    box-shadow: 0 0 30px rgba(139, 92, 246, 0.4);
+    border-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .contact-button {
+        font-size: 0.875rem;
+        padding: 0.625rem 2rem;
+        margin-top: 1.25rem;
+        border-width: 1.5px;
+    }
+}
+
+.trusted-by {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 3rem;
+}
+
+.trusted-by p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.company-logos {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    opacity: 0.7;
+}
+
+@media (min-width: 768px) {
+    .hero-content {
+        gap: 4rem;
+    }
+
+    .hero-right h1 {
+        font-size: 5rem;
+    }
+
+    .stats {
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 3rem 1.5rem;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .hero-left {
+        padding: 1.5rem;
+    }
+
+    .hero-right {
+        text-align: center;
+    }
+
+    .hero-description {
+        margin: 0 auto 3rem;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+        max-width: 300px;
+        margin: 0 auto 3rem;
+    }
+
+    .trusted-by {
+        text-align: center;
+    }
+
+    .company-logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .hero-right h1 {
+        font-size: 3.5rem;
+    }
+}
+</style>
+
+<section class="tech-stack">
+    <div class="tech-scroll-container">
+        <div class="tech-scroll">
+            <div class="tech-item">
+                <img src="/images/tech/typescript.svg" alt="TypeScript">
+                <span>TypeScript</span>
+            </div>
+            <div class="tech-item">
+                <img src="/images/tech/redux.svg" alt="ReduxJS">
+                <span>ReduxJS</span>
+            </div>
+            <div class="tech-item">
+                <img src="/images/tech/javascript.svg" alt="JavaScript">
+                <span>JavaScript</span>
+            </div>
+            <div class="tech-item">
+                <img src="/images/tech/tailwind.svg" alt="TailwindCSS">
+                <span>TailwindCSS</span>
+            </div>
+            <div class="tech-item">
+                <img src="/images/tech/nextui.svg" alt="NextUI">
+                <span>NextUI</span>
+            </div>
+            <div class="tech-item">
+                <img src="/images/tech/supabase.svg" alt="Supabase">
+                <span>Supabase</span>
+            </div>
+            <div class="tech-item">
+                <img src="/images/tech/shadcn.svg" alt="shadcn/ui">
+                <span>shadcn/ui</span>
+            </div>
+            <div class="tech-item">
+                <img src="/images/tech/material-ui.svg" alt="Material UI">
+                <span>Material UI</span>
+            </div>
+            <div class="tech-item">
+                <img src="/images/tech/typescript.svg" alt="TypeScript">
+                <span>TypeScript</span>
+            </div>
+            <div class="tech-item">
+                <img src="/images/tech/redux.svg" alt="ReduxJS">
+                <span>ReduxJS</span>
+            </div>
+            <div class="tech-item">
+                <img src="/images/tech/javascript.svg" alt="JavaScript">
+                <span>JavaScript</span>
+            </div>
+            <div class="tech-item">
+                <img src="/images/tech/tailwind.svg" alt="TailwindCSS">
+                <span>TailwindCSS</span>
+            </div>
+            <div class="tech-item">
+                <img src="/images/tech/nextui.svg" alt="NextUI">
+                <span>NextUI</span>
+            </div>
+            <div class="tech-item">
+                <img src="/images/tech/supabase.svg" alt="Supabase">
+                <span>Supabase</span>
+            </div>
+            <div class="tech-item">
+                <img src="/images/tech/shadcn.svg" alt="shadcn/ui">
+                <span>shadcn/ui</span>
+            </div>
+            <div class="tech-item">
+                <img src="/images/tech/material-ui.svg" alt="Material UI">
+                <span>Material UI</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="projects">
+    <div class="section-header-container">
+        <h2 class="section-header">PROJECTS</h2>
+        <span class="header-separator">/</span>
+        <a href="/projects" class="view-all-link">VIEW ALL</a>
+    </div>
+    <div class="project-grid">
+        {{ range first 6 .Site.Data.projects }}
+        <div class="project-card">
+            <div class="project-card-content">
+                <h3 class="project-title">{{ .title }}</h3>
+                <p class="project-description">{{ .description }}</p>
+                <div class="project-tags">
+                    {{ range .tags }}
+                    <span class="project-tag">{{ . }}</span>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+<section class="specialties">
+    <h2 class="section-header">SPECIALTIES</h2>
+    <div class="specialties-list">
+        <div class="specialty-item">
+            <span class="specialty-text">Full-Stack AI Solutions</span>
+            <span class="plus-icon">+</span>
+        </div>
+        <div class="specialty-item">
+            <span class="specialty-text">AI Model Integration</span>
+            <span class="plus-icon">+</span>
+        </div>
+        <div class="specialty-item">
+            <span class="specialty-text">Data Engineering & Management</span>
+            <span class="plus-icon">+</span>
+        </div>
+        <div class="specialty-item">
+            <span class="specialty-text">Intelligent User Experiences</span>
+            <span class="plus-icon">+</span>
+        </div>
+        <div class="specialty-item">
+            <span class="specialty-text">End-to-End AI Projects</span>
+            <span class="plus-icon">+</span>
+        </div>
+    </div>
+</section>
+
+<section class="blogs">
+    <div class="section-header-container">
+        <h2 class="section-header">JOURNAL</h2>
+        <span class="header-separator">/</span>
+        <a href="/blog" class="view-all-link">VIEW ALL</a>
+    </div>
+    <div class="blog-grid">
+        {{ range first 4 (where .Site.RegularPages "Section" "posts") }}
+        <article class="blog-card" data-tags="{{ delimit .Params.tags ", " }}" data-title="{{ .Title | lower }}">
+            <div class="blog-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+            <h2 class="blog-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            {{ if .Description }}
+            <p class="blog-card-description">{{ .Description }}</p>
+            {{ end }}
+            <div class="blog-card-tags">
+                {{ range .Params.tags }}
+                <span class="blog-card-tag">{{ . }}</span>
+                {{ end }}
+            </div>
+        </article>
+        {{ end }}
+    </div>
+</section>
+
+<style>
+.blogs {
+    margin: 4rem auto;
+    max-width: 1200px;
+    padding: 0 1.5rem;
+}
+
+.blog-grid {
+    margin-top: 2rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.blog-card {
+    background: rgba(32, 32, 32, 0.5);
+    border-radius: 16px;
+    padding: 2rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.blog-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.blog-card-date {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 1rem;
+}
+
+.blog-card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.blog-card-title a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.blog-card-title a:hover {
+    color: #8B5CF6;
+}
+
+.blog-card-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.blog-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.blog-card-tag {
+    background: rgba(139, 92, 246, 0.2);
+    color: #8B5CF6;
+    padding: 0.25rem 0.75rem;
+    border-radius: 100px;
+    font-size: 0.875rem;
+    transition: background 0.2s ease;
+}
+
+.blog-card-tag:hover {
+    background: rgba(139, 92, 246, 0.3);
+}
+
+@media (min-width: 768px) {
+    .blog-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .blogs {
+        margin: 3rem auto;
+        padding: 0 1rem;
+    }
+
+    .blog-card {
+        padding: 1.5rem;
+    }
+
+    .blog-card-title {
+        font-size: 1.25rem;
+    }
+}
+</style>
+
+<section class="contact-section">
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2 class="keep-in-touch">Keep In Touch.</h2>
+            <p class="specialization">I'm currently specializing in <span class="highlight">AI Software Development</span>.</p>
+            <p class="contact-msg">Feel free to get in touch and talk more about your projects.</p>
+            <div class="contact-links">
+                <a href="#" class="contact-link">
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </a>
+                <a href="mailto:your.email@example.com" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    Email
+                </a>
+                <a href="/resume.pdf" class="contact-link">
+                    <i class="fas fa-file-alt"></i>
+                    Resume
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}

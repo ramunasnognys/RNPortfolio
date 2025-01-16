@@ -1,0 +1,54 @@
+{{ define "main" }}
+<div class="blog-container">
+    <div class="blog-header">
+        <h1 class="blog-title">JOURNAL</h1>
+        <p class="blog-subtitle">Thoughts on AI, Software Development, and Technology</p>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search posts..." class="search-input">
+            <div class="search-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-grid">
+        {{ range (where .Site.RegularPages "Section" "posts") }}
+        <article class="blog-card" data-tags="{{ delimit .Params.tags ", " }}" data-title="{{ .Title | lower }}">
+            <div class="blog-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+            <h2 class="blog-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            {{ if .Description }}
+            <p class="blog-card-description">{{ .Description }}</p>
+            {{ end }}
+            <div class="blog-card-tags">
+                {{ range .Params.tags }}
+                <span class="blog-card-tag">{{ . }}</span>
+                {{ end }}
+            </div>
+        </article>
+        {{ end }}
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('searchInput');
+    const blogCards = document.querySelectorAll('.blog-card');
+
+    searchInput.addEventListener('input', function(e) {
+        const searchTerm = e.target.value.toLowerCase();
+
+        blogCards.forEach(card => {
+            const title = card.dataset.title;
+            const tags = card.dataset.tags.toLowerCase();
+            const isVisible = title.includes(searchTerm) || tags.includes(searchTerm);
+            
+            card.style.display = isVisible ? 'block' : 'none';
+            card.style.animation = isVisible ? 'fadeIn 0.5s ease' : 'none';
+        });
+    });
+});
+</script>
+{{ end }}

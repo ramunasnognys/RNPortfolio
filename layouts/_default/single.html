@@ -1,0 +1,89 @@
+{{ define "main" }}
+<div class="content-wrapper">
+    <article class="post-single">
+        <header class="post-header">
+            <div class="post-meta">
+                {{ with .Date }}
+                <time datetime="{{ .Format "2006-01-02T15:04:05Z07:00" }}">
+                    {{ .Format "January 2, 2006" }}
+                </time>
+                {{ end }}
+                <span class="reading-time">• {{ .FuzzyWordCount }} words • {{ math.Round (div (countwords .Content) 200.0) }} min read</span>
+            </div>
+            <h1 class="post-title">{{ .Title }}</h1>
+            {{ with .Description }}
+            <div class="post-description">{{ . }}</div>
+            {{ end }}
+            {{ with .Params.tags }}
+            <div class="post-tags">
+                {{ range . }}
+                <span class="tag">{{ . }}</span>
+                {{ end }}
+            </div>
+            {{ end }}
+        </header>
+
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+
+        <nav class="post-nav">
+            {{if .PrevInSection}}
+            <a class="nav-prev" href="{{.PrevInSection.Permalink}}">
+                <div class="nav-indicator">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                    <span>Previous</span>
+                </div>
+                <span class="nav-title">{{.PrevInSection.Title}}</span>
+            </a>
+            {{end}}
+            
+            {{if .NextInSection}}
+            <a class="nav-next" href="{{.NextInSection.Permalink}}">
+                <div class="nav-indicator">
+                    <span>Next</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </div>
+                <span class="nav-title">{{.NextInSection.Title}}</span>
+            </a>
+            {{end}}
+        </nav>
+    </article>
+
+    {{ if .TableOfContents }}
+    <div class="table-of-contents">
+        <div class="toc-title">Table of Contents</div>
+        {{ $toc := .TableOfContents }}
+        {{ $toc := replaceRE "<nav>[\\s\\S]*?<ul>" "<nav><ul>" $toc 1 }}
+        {{ $toc := replaceRE "<ul>[\\s\\S]*?</ul></li>" "</li>" $toc }}
+        {{ $toc | safeHTML }}
+    </div>
+    {{ end }}
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            const id = entry.target.getAttribute('id');
+            const tocLink = document.querySelector(`.table-of-contents nav a[href="#${id}"]`);
+            
+            if (tocLink) {
+                if (entry.intersectionRatio > 0) {
+                    document.querySelectorAll('.table-of-contents nav a').forEach(link => {
+                        link.classList.remove('active');
+                    });
+                    tocLink.classList.add('active');
+                }
+            }
+        });
+    }, {
+        rootMargin: '-20% 0px -80% 0px'
+    });
+
+    document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]').forEach((header) => {
+        observer.observe(header);
+    });
+});
+</script>
+{{ end }}

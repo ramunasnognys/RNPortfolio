@@ -1,0 +1,43 @@
+- title: "Selected works 2022"
+  description: "A selection of my best project work for the year."
+  icon: "/images/icons/target.svg"
+  image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1000"
+  tags:
+    - Case Study
+    - UI
+  github: "https://github.com/yourusername/selected-works-2022"
+
+- title: "Hugo Serif theme"
+  description: "A popular opensource theme I built for Hugo."
+  icon: "/images/icons/keyboard.svg"
+  image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000"
+  tags:
+    - Github
+    - Opensource
+  github: "https://github.com/yourusername/hugo-serif-theme"
+
+- title: "Hugo Winston theme"
+  description: "One of my opensource projects, a minimal blog theme for Hugo."
+  icon: "/images/icons/keyboard.svg"
+  image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1000"
+  tags:
+    - Github
+    - Opensource
+    - Projects
+  github: "https://github.com/yourusername/hugo-winston-theme"
+
+- title: "AI may already be sentient"
+  description: "A great set of Chat GPT prompts. Will try them out later."
+  icon: "/images/icons/brain.svg"
+  image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1000"
+  tags:
+    - Notes
+    - AI
+
+- title: "Design for Curate"
+  description: "Design work from the Curate project"
+  icon: "/images/icons/palette.svg"
+  image: "https://images.unsplash.com/photo-1561736778-92e52a7769ef?q=80&w=1000"
+  tags:
+    - Portfolio
+    - Design

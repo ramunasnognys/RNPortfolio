@@ -1,0 +1,224 @@
+{{ define "main" }}
+<div class="projects-container">
+    <header class="page-header">
+        <h1 class="page-title">Projects</h1>
+        <p class="page-description">Here you'll find a collection of my work, including both personal and professional projects. Most of these started out of personal necessity.</p>
+    </header>
+
+    <div class="project-grid">
+        {{ range .Site.Data.projects }}
+        <div class="summary">
+            <div class="project-image">
+                <img src="{{ .image }}" alt="{{ .title }}">
+            </div>
+            <div class="summary-content">
+                <h2>{{ .title }}</h2>
+                <p>{{ .description }}</p>
+                <div class="card-footer">
+                    <div class="card-tags">
+                        {{ range .tags }}
+                        <span class="tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    {{ if .github }}
+                    <a href="{{ .github }}" class="github-link" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<style>
+.projects-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.page-header {
+    margin-bottom: 4rem;
+    text-align: left;
+}
+
+.page-title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    line-height: 1.2;
+}
+
+.page-description {
+    font-size: 18px;
+    color: var(--text-secondary);
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.summary {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: rgba(32, 33, 35, 0.3);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    box-shadow: 
+        inset 0 0 0 1px rgba(255, 255, 255, 0.015),
+        inset 0 0 30px rgba(255, 255, 255, 0.005),
+        0 0 0 1px rgba(255, 255, 255, 0.01);
+}
+
+.summary::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        165deg,
+        rgba(255, 255, 255, 0.03) 0%,
+        rgba(255, 255, 255, 0.01) 40%,
+        rgba(255, 255, 255, 0.005) 80%
+    );
+    border-radius: 24px;
+    pointer-events: none;
+}
+
+.summary::after {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    background: linear-gradient(180deg, 
+        rgba(255, 255, 255, 0.02),
+        rgba(255, 255, 255, 0.005)
+    );
+    border-radius: 24px;
+    pointer-events: none;
+}
+
+.summary:hover {
+    transform: translateY(-2px);
+    box-shadow: 
+        inset 0 0 0 1px rgba(255, 255, 255, 0.03),
+        inset 0 0 30px rgba(255, 255, 255, 0.01),
+        0 0 0 1px rgba(255, 255, 255, 0.02),
+        0 0 30px rgba(78, 205, 196, 0.1),
+        0 0 60px rgba(150, 201, 61, 0.05);
+}
+
+.project-image {
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 24px 24px 0 0;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 1rem;
+}
+
+.github-link {
+    color: var(--text-secondary);
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.github-link:hover {
+    color: #6e5494;
+}
+
+.github-link svg {
+    width: 24px;
+    height: 24px;
+}
+
+.summary-content {
+    padding: 1rem;
+    position: relative;
+    z-index: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.summary-content p {
+    font-size: 1rem;
+    color: #8B8B8B;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.tag {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4ECDC4;
+    position: relative;
+    background: rgba(78, 205, 196, 0.1);
+    border-radius: 4px;
+}
+
+.tag:nth-child(2n) {
+    color: #96C93D;
+    background: rgba(150, 201, 61, 0.1);
+}
+
+.tag:nth-child(3n) {
+    color: #45B8AC;
+    background: rgba(69, 184, 172, 0.1);
+}
+
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+    .projects-container {
+        padding: 1rem;
+    }
+    .page-title {
+        font-size: 2rem;
+    }
+
+    .page-description {
+        font-size: 1.125rem;
+    }
+}
+</style>
+{{ end }}
