@@ -44,6 +44,9 @@
     <loc>http://localhost:52800/tags/</loc>
     <lastmod>2025-01-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:52800/posts/test/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:52800/contact/</loc>
     <lastmod>2025-01-08T00:00:00+00:00</lastmod>
   </url><url>
