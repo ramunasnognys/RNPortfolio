@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <polygon fill="#00B0FF" points="0 148.4307 0 0 96 55.9461 96 92.4832 32 55.9461 32 166.6503"/>
+        <polygon fill="#0081CB" points="96 55.9461 192 0 192 148.4307 160 166.6503 160 55.9461 96 92.4832"/>
+        <polygon fill="#00B0FF" points="96 203.1874 96 166.6503 160 203.1874 160 166.6503 192 148.4307 192 203.1874 96 256"/>
+        <path d="M160,203.1874 L96,166.6503 L96,203.1874 L160,203.1874 Z" fill-opacity="0.2" fill="#FFFFFF"/>
+        <polygon fill-opacity="0.2" fill="#263238" points="128,148.4307 96,166.6503 160,203.1874"/>
+    </g>
+</svg>
