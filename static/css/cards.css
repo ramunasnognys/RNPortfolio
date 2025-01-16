@@ -165,6 +165,74 @@ h2.section-header.ai-style-change-1 {
   margin: 0;
 }
 
+/* Base contact section styling */
+.section.contact-section {
+  padding: 4rem 2rem;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.section.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Tablet and smaller screens */
+@media (max-width: 768px) {
+  .section.contact-section {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-info.ai-style-change-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+  .section.contact-section {
+    padding: 2rem 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .contact-info.ai-style-change-1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
 @media (max-width: 1265px) {
   main {
     width: 100%;
@@ -172,12 +240,22 @@ h2.section-header.ai-style-change-1 {
   }
 
   section.projects,
-  section.blogs {
+  section.blogs,
+  section.contact-section {
     width: 100%;
     max-width: 100%;
     margin: 32px auto;
     padding: 16px;
     box-sizing: border-box;
+  }
+
+  .contact-info.ai-style-change-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
   }
 
   section.projects > *,

@@ -1597,10 +1597,14 @@ a.logo * {
 @media (max-width: 768px) {
     .contact-section {
         padding: 3rem 1.5rem;
+        display: flex;
+        justify-content: center;
     }
 
     .contact-container {
         padding: 2rem 1rem;
+        display: flex;
+        justify-content: center;
     }
 
     .keep-in-touch {
