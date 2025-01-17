@@ -890,6 +890,20 @@ a.logo * {
 }
 
 /* Blogs section */
+.blog-section,
+.blog-section * {
+  width: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.blog-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .blogs {
     padding: 8rem 2rem;
     max-width: 1020px;
