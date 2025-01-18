@@ -595,7 +595,7 @@
     </div>
     <div class="blog-grid">
         {{ range first 4 (where .Site.RegularPages "Section" "posts") }}
-        <article class="blog-card" data-tags="{{ delimit .Params.tags ", " }}" data-title="{{ .Title | lower }}">
+        <article class="blog-card" data-tags="{{ with .Params.tags }}{{ delimit . ", " }}{{ end }}" data-title="{{ .Title | lower }}">
             <div class="blog-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
             <h2 class="blog-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
             {{ if .Description }}

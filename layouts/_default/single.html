@@ -24,7 +24,21 @@
         </header>
 
         <div class="post-content">
+            {{ if .Params.toc }}
+            <div class="table-of-contents">
+                <div class="toc-title">Table of Contents</div>
+                {{ .TableOfContents }}
+            </div>
+            {{ end }}
+            
             {{ .Content }}
+            
+            {{ if .Params.summary }}
+            <div class="summary-box">
+                <h3>Summary</h3>
+                <p>{{ .Params.summary }}</p>
+            </div>
+            {{ end }}
         </div>
 
         <nav class="post-nav">
