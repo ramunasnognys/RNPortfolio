@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technology on Ramunas Nognys</title>
-    <link>http://localhost:54299/tags/technology/</link>
+    <link>http://localhost:1313/tags/technology/</link>
     <description>Recent content in Technology on Ramunas Nognys</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:54299/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Rise of Mega Prompting: Revolutionizing AI Development in 2025</title>
-      <link>http://localhost:54299/posts/the-rise-of-mega-prompting-revolutionizing-ai-development-in-2025/</link>
+      <link>http://localhost:1313/posts/the-rise-of-mega-prompting-revolutionizing-ai-development-in-2025/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54299/posts/the-rise-of-mega-prompting-revolutionizing-ai-development-in-2025/</guid>
+      <guid>http://localhost:1313/posts/the-rise-of-mega-prompting-revolutionizing-ai-development-in-2025/</guid>
       <description>An in-depth exploration of mega prompting, a transformative approach to AI interaction and development that&amp;rsquo;s reshaping how we communicate with and harness AI systems.</description>
     </item>
   </channel>

@@ -897,6 +897,15 @@ a.logo * {
   box-sizing: border-box;
 }
 
+.page-header {
+  text-align: left; /* Align text content within the header to the left */
+  margin-left: 0;   /* Remove any default or existing left margin */
+}
+@media (min-width: 768px) { /* Adjust breakpoint as needed */
+  .page-header h1.page-title {
+    font-size: 48px; /* Reduce title font size for desktop */
+  }
+}
 .blog-section {
   display: flex;
   flex-direction: column;
@@ -1936,9 +1945,8 @@ a.logo * {
 }
 
 .search-container {
-    position: relative;
-    max-width: 500px;
-    margin: 0 auto;
+  width: calc(100% - var(--side-padding) - var(--side-padding));
+  box-sizing: border-box;
 }
 
 .search-input {

@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="blog-container">
-    <header class="blog-header">
-        <h1 class="blog-title">Blog</h1>
-        <p class="blog-description">This is where I share my writings on programming, tutorials, and my experiences.</p>
+    <header class="page-header">
+        <h1 class="page-title">Blog</h1>
+        <p class="page-description">This is where I share my writings on programming, tutorials, and my experiences.</p>
     </header>
     
     <div class="search-container">
@@ -56,25 +56,25 @@
     padding: 3rem 2rem;
 }
 
-.blog-header {
-    margin-bottom: 3rem;
-    opacity: 0;
-    animation: fadeInUp 0.8s ease forwards;
+
+.page-header {
+    margin-bottom: 4rem;
+    text-align: left;
+    align-self: flex-start;
 }
 
-.blog-title {
-    font-size: 3.5rem;
+.page-title {
+    font-size: 4rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: var(--text-primary);
-    background: linear-gradient(120deg, var(--primary-color), var(--primary-hover));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--text-color);
+    line-height: 1.2;
 }
 
-.blog-description {
-    font-size: 1.2rem;
+.page-description {
+    font-size: 18px;
     color: var(--text-secondary);
+    max-width: 600px;
     line-height: 1.6;
 }
 
