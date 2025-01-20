@@ -2,122 +2,122 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ramunas Nognys</title>
-    <link>http://localhost:52800/tags/</link>
+    <link>https://blog.ramunasnognys.tech/tags/</link>
     <description>Recent content in Tags on Ramunas Nognys</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:52800/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.ramunasnognys.tech/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>http://localhost:52800/tags/ai/</link>
+      <link>https://blog.ramunasnognys.tech/tags/ai/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/ai/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>http://localhost:52800/tags/blog/</link>
+      <link>https://blog.ramunasnognys.tech/tags/blog/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/blog/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Development</title>
-      <link>http://localhost:52800/tags/development/</link>
+      <link>https://blog.ramunasnognys.tech/tags/development/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/development/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/development/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>http://localhost:52800/tags/git/</link>
+      <link>https://blog.ramunasnognys.tech/tags/git/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/git/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>http://localhost:52800/tags/github/</link>
+      <link>https://blog.ramunasnognys.tech/tags/github/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/github/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Hostinger</title>
-      <link>http://localhost:52800/tags/hostinger/</link>
+      <link>https://blog.ramunasnognys.tech/tags/hostinger/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/hostinger/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/hostinger/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:52800/tags/hugo/</link>
+      <link>https://blog.ramunasnognys.tech/tags/hugo/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/hugo/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Knowledge-Management</title>
-      <link>http://localhost:52800/tags/knowledge-management/</link>
+      <link>https://blog.ramunasnognys.tech/tags/knowledge-management/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/knowledge-management/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/knowledge-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Mega Prompting</title>
-      <link>http://localhost:52800/tags/mega-prompting/</link>
+      <link>https://blog.ramunasnognys.tech/tags/mega-prompting/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/mega-prompting/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/mega-prompting/</guid>
       <description></description>
     </item>
     <item>
       <title>New</title>
-      <link>http://localhost:52800/tags/new/</link>
+      <link>https://blog.ramunasnognys.tech/tags/new/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/new/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/new/</guid>
       <description></description>
     </item>
     <item>
       <title>Personal-Growth</title>
-      <link>http://localhost:52800/tags/personal-growth/</link>
+      <link>https://blog.ramunasnognys.tech/tags/personal-growth/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/personal-growth/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/personal-growth/</guid>
       <description></description>
     </item>
     <item>
       <title>Second-Brain</title>
-      <link>http://localhost:52800/tags/second-brain/</link>
+      <link>https://blog.ramunasnognys.tech/tags/second-brain/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/second-brain/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/second-brain/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>http://localhost:52800/tags/technology/</link>
+      <link>https://blog.ramunasnognys.tech/tags/technology/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/technology/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>http://localhost:52800/tags/javascript/</link>
+      <link>https://blog.ramunasnognys.tech/tags/javascript/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/javascript/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>React</title>
-      <link>http://localhost:52800/tags/react/</link>
+      <link>https://blog.ramunasnognys.tech/tags/react/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/react/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/react/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>http://localhost:52800/tags/web/</link>
+      <link>https://blog.ramunasnognys.tech/tags/web/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/tags/web/</guid>
+      <guid>https://blog.ramunasnognys.tech/tags/web/</guid>
       <description></description>
     </item>
   </channel>
