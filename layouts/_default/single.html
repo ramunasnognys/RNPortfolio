@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div class="content-wrapper">
-    <article class="post-single">
+    <div class="post-container">
+        <article class="post-single">
         <header class="post-header">
             <div class="post-meta">
                 {{ with .Date }}
@@ -63,6 +64,7 @@
             {{end}}
         </nav>
     </article>
+    </div>
 
     {{ if .TableOfContents }}
     <div class="table-of-contents">
