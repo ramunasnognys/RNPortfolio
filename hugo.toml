@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:52800/'
+baseURL = 'https://blog.ramunasnognys.tech/'
 languageCode = 'en-us'
 title = 'Ramunas Nognys'
 
