@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on Ramunas Nognys</title>
-    <link>http://localhost:1313/tags/javascript/</link>
+    <link>http://localhost:52800/tags/javascript/</link>
     <description>Recent content in Javascript on Ramunas Nognys</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:52800/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sample Project</title>
-      <link>http://localhost:1313/projects/sample-project/</link>
+      <link>http://localhost:52800/projects/sample-project/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/sample-project/</guid>
+      <guid>http://localhost:52800/projects/sample-project/</guid>
       <description>&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;This is a sample project that demonstrates my abilities in web development.&lt;/p&gt;&#xA;&lt;h3 id=&#34;technologies-used&#34;&gt;Technologies Used&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;React.js&lt;/li&gt;&#xA;&lt;li&gt;Node.js&lt;/li&gt;&#xA;&lt;li&gt;MongoDB&lt;/li&gt;&#xA;&lt;li&gt;Docker&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;User authentication&lt;/li&gt;&#xA;&lt;li&gt;Real-time updates&lt;/li&gt;&#xA;&lt;li&gt;Responsive design&lt;/li&gt;&#xA;&lt;li&gt;API integration&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://example.com&#34;&gt;Live Demo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/yourusername/project&#34;&gt;GitHub Repository&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h3&gt;&#xA;&lt;p&gt;[Screenshots will be added]&lt;/p&gt;</description>
     </item>
   </channel>
