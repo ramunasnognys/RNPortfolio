@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github on Ramunas Nognys</title>
-    <link>http://localhost:52800/tags/github/</link>
+    <link>https://blog.ramunasnognys.tech/tags/github/</link>
     <description>Recent content in Github on Ramunas Nognys</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:52800/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.ramunasnognys.tech/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Insane Blog Pipeline</title>
-      <link>http://localhost:52800/posts/my-insane-blog-pipeline/</link>
+      <link>https://blog.ramunasnognys.tech/posts/my-insane-blog-pipeline/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52800/posts/my-insane-blog-pipeline/</guid>
+      <guid>https://blog.ramunasnognys.tech/posts/my-insane-blog-pipeline/</guid>
       <description>&lt;h1 id=&#34;obsidian---why-i-love-it&#34;&gt;Obsidian - Why I love it&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blog.networkchuck.com/posts/my-insane-blog-pipeline/#obsidian---why-i-love-it&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Obsidian is the BEST notes application in the world. Go download it: &lt;a href=&#34;https://obsidian.md/&#34;&gt;https://obsidian.md/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;the-setup&#34;&gt;The Setup&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://blog.networkchuck.com/posts/my-insane-blog-pipeline/#the-setup&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create a new folder labeled &lt;em&gt;posts&lt;/em&gt;. This is where you will add your blog posts&lt;/li&gt;&#xA;&lt;li&gt;….that’s all you have to do&lt;/li&gt;&#xA;&lt;li&gt;Actually…wait….find out where your Obsidian directories are. Right click your &lt;em&gt;posts&lt;/em&gt; folder and choose &lt;em&gt;show in system explorer&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;You’ll need this directory in upcoming steps.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;!&lt;img src=&#34;https://blog.networkchuck.com/images/Pasted%20image%2020241115145036.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
