@@ -14,6 +14,12 @@
     --bg-secondary: #2A2A2A;
     --tag-bg: #EEEEEE;
     --primary-rgb: 129, 140, 248;
+
+    --code-keyword-color: #ff79c6;
+    --code-string-color: #f8f8f2;
+    --code-comment-color: #6272a4;
+    --code-function-color: #50fa7b;
+    --code-number-color: #bd93f9;
 }
 
 /* Base styles */
@@ -40,10 +46,9 @@ h2 {
   font-weight: 600;
   margin: 2rem 0 1.5rem;
   padding: 0.8rem;
-  background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
   border-radius: 6px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.15); */
 }
 
 h3 {
@@ -51,7 +56,6 @@ h3 {
   font-weight: 600;
   margin: 1.8rem 0 1.2rem;
   padding: 0.6rem;
-  background: rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(8px);
   border-radius: 6px;
 }
@@ -1379,18 +1383,61 @@ article.post-single {
 .post-content pre .number { color: #f78c6c; }
 
 /* Copy button */
-.post-content pre:hover::after {
-    content: '📋';
+.post-content pre {
+    position: relative;
+}
+
+.post-content pre {
+    position: relative;
+    padding-top: 2.5rem;
+}
+
+.copy-btn {
     position: absolute;
     top: 0.5rem;
     right: 0.75rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 0.75rem;
+    color: rgba(255, 255, 255, 0.8);
     cursor: pointer;
-    opacity: 0.6;
-    transition: opacity 0.2s ease;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
 }
 
-.post-content pre:hover::after:hover {
+.copy-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.copy-btn i {
+    font-size: 1rem;
+}
+
+.copy-btn.copied {
+    color: #50fa7b;
+    background: rgba(80, 250, 123, 0.1);
+}
+
+
+.post-content pre:hover::before {
     opacity: 1;
+}
+
+.post-content pre.copied::after {
+    color: #50fa7b;
+    animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
 }
 
 @media (max-width: 768px) {
@@ -2365,4 +2412,27 @@ article.post-single {
     .blog-card {
         padding: 1.2rem;
     }
+}
+
+
+.post-content pre .chroma-keyword {
+  color: var(--code-keyword-color);
+}
+
+.post-content pre .chroma-string {
+  color: var(--code-string-color);
+  opacity: 0.8;
+}
+
+.post-content pre .chroma-comment {
+  color: var(--code-comment-color);
+  font-style: italic;
+}
+
+.post-content pre .chroma-function {
+  color: var(--code-function-color);
+}
+
+.post-content pre .chroma-number {
+  color: var(--code-number-color);
 }

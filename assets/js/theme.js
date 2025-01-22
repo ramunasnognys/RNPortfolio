@@ -41,4 +41,28 @@ document.addEventListener('DOMContentLoaded', () => {
       setTheme(e.matches ? 'dark' : 'light');
     }
   });
+
+  // Add copy buttons to all code blocks
+  const codeBlocks = document.querySelectorAll('pre');
+  codeBlocks.forEach(pre => {
+    const wrapper = document.createElement('div');
+    wrapper.style.position = 'relative';
+    
+    const copyBtn = document.createElement('button');
+    copyBtn.className = 'copy-btn';
+    copyBtn.innerHTML = '<i class="far fa-copy"></i>';
+    
+    pre.parentNode.insertBefore(wrapper, pre);
+    wrapper.appendChild(pre);
+    wrapper.appendChild(copyBtn);
+
+    copyBtn.addEventListener('click', async () => {
+      try {
+        const code = pre.querySelector('code').innerText;
+        await navigator.clipboard.writeText(code);
+      } catch (err) {
+        console.error('Failed to copy code:', err);
+      }
+    });
+  });
 });
