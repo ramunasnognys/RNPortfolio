@@ -46,7 +46,7 @@ h2 {
   font-weight: 600;
   margin: 2rem 0 1.5rem;
   padding: 0.8rem;
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   border-radius: 6px;
 }
 
@@ -55,7 +55,7 @@ h3 {
   font-weight: 600;
   margin: 1.8rem 0 1.2rem;
   padding: 0.6rem;
-  backdrop-filter: blur(8px);
+  /* backdrop-filter: blur(8px); */
   border-radius: 6px;
 }
 
@@ -94,7 +94,7 @@ h6 {
 .post-content {
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 0;
   font-size: 1.2rem;
 }
 
@@ -2343,7 +2343,7 @@ article.post-single {
 }
 
 .blog-card-title a:hover {
-    color: #7C3AED;
+    color: #ff79c6;
 }
 
 .blog-card-description {
@@ -2368,9 +2368,6 @@ article.post-single {
     transition: all 0.3s ease;
 }
 
-.blog-card-tag:hover {
-    background: rgba(124, 58, 237, 0.2);
-}
 
 @keyframes fadeIn {
     from {
