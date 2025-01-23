@@ -154,27 +154,78 @@ body {
     margin: var(--space-xs) 0;
 }
 
-/* Special content elements */
+/* Blockquotes and callouts */
+.post-content blockquote,
 .callout {
-  padding: 2rem;
-  margin: 2rem 0;
-  border-left: 6px solid var(--primary-color);
-  background: rgba(129, 140, 248, 0.1);
-  backdrop-filter: blur(10px);
-  border-radius: 8px;
-  font-size: 1.15rem;
-  line-height: 1.8;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: var(--space-lg) 0;
+    padding: var(--space-md) var(--space-lg);
+    border-left: 4px solid var(--primary-color);
+    background: rgba(129, 140, 248, 0.1);
+    font-size: var(--text-lg);
+    line-height: var(--line-height-base);
+    color: var(--text-secondary);
+    border-radius: 8px;
+}
+
+.post-content blockquote p {
+    margin: var(--space-xs) 0;
+}
+
+.callout {
+    font-size: var(--text-md);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
 }
 
 .callout.warning {
-  border-color: #f59e0b;
-  background: rgba(245, 158, 11, 0.1);
+    border-color: #f59e0b;
+    background: rgba(245, 158, 11, 0.1);
 }
 
 .callout.info {
-  border-color: #3b82f6;
-  background: rgba(59, 130, 246, 0.1);
+    border-color: #3b82f6;
+    background: rgba(59, 130, 246, 0.1);
+}
+
+/* Code blocks */
+.post-content pre {
+    margin: var(--space-lg) 0;
+    padding: var(--space-md);
+    border-radius: 8px;
+    font-size: var(--text-sm);
+    line-height: var(--line-height-small);
+    overflow-x: auto;
+    background: linear-gradient(145deg, rgba(40, 40, 40, 0.8), rgba(25, 25, 25, 0.9));
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Inline code */
+.post-content code:not(pre code) {
+    font-size: 0.9em;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    background: rgba(129, 140, 248, 0.1);
+    border: 1px solid rgba(129, 140, 248, 0.2);
+}
+
+/* Images and captions */
+.post-content figure {
+    margin: var(--space-lg) 0;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: var(--space-sm) 0;
+}
+
+.post-content figcaption {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    text-align: center;
+    margin-top: var(--space-xs);
+    line-height: var(--line-height-small);
 }
 
 .summary-box {
@@ -1306,7 +1357,7 @@ article.post-single {
 }
 
 .post-title {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 1.2;
     margin: 1rem 0;
