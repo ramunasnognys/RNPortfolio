@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript Rules in Cursor IDE | Ramunas Nognys</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/theme.min.css">
+    
+    <link rel="stylesheet" href="/css/custom.min.e3c7ef98fdaf928ed19b2abf587f31fb9a65e9ea1616cf64e058e05a66c743a5.css" integrity="sha256-48fvmP2vko7Rmyq/WH8x&#43;5pl6eoWFs9k4FjgWmbHQ6U=">
+</head>
+<body>
+    <header class="header">
+    <div class="header-content">
+        <a href="/" class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="2" width="20" height="20" stroke="#7C3AED" stroke-width="2" fill="#7C3AED" fill-opacity="0.1"/>
+            </svg>
+            Ramunas Nognys
+        </a>
+        <nav class="nav-links">
+            <a href="/projects" class="nav-link">Projects</a>
+            <a href="/blog" class="nav-link">Blog</a>
+            <button class="theme-switch" id="theme-toggle" aria-label="Toggle theme">
+                <svg class="theme-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        
+<div class="content-wrapper">
+    <div class="post-container">
+        <article class="post-single">
+        <header class="post-header">
+            <div class="post-meta">
+                
+                <time datetime="2025-01-24T00:00:00Z">
+                    January 24, 2025
+                </time>
+                
+                <span class="reading-time">• 400 words • 2 min read</span>
+            </div>
+            <h1 class="post-title">TypeScript Rules in Cursor IDE</h1>
+            
+            
+            <div class="post-tags">
+                
+                <span class="tag">TypeScript</span>
+                
+                <span class="tag">IDE</span>
+                
+                <span class="tag">Development</span>
+                
+            </div>
+            
+        </header>
+
+        <div class="post-content">
+            
+            
+            <p>To set up TypeScript rules in Cursor IDE, you can follow these organized steps based on the
+provided rules:</p>
+<h3 id="1-formatting-with-prettier">1. <strong>Formatting with Prettier</strong></h3>
+<ul>
+<li>Install and enable the Prettier extension in Cursor.</li>
+<li>Configure Prettier settings (e.g., <code>singleQuote: true</code>, <code>semicolon: 'always'</code>) in your
+project&rsquo;s <code>.prettierrc</code> or <code>prettier.config.js</code>.</li>
+</ul>
+<h3 id="2-line-width">2. <strong>Line Width</strong></h3>
+<ul>
+<li>In <code>tsconfig.json</code>, set:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="s2">&#34;maxLineLength&#34;</span><span class="err">:</span> <span class="mi">80</span><span class="err">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;warnOnTruncatedLines&#34;</span><span class="err">:</span> <span class="kc">true</span>
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="3-quotes-style">3. <strong>Quotes Style</strong></h3>
+<ul>
+<li>Configure Prettier to use single quotes in <code>.prettierrc</code> or <code>prettier.config.js</code>.</li>
+</ul>
+<h3 id="4-semicolons">4. <strong>Semicolons</strong></h3>
+<ul>
+<li>Set <code>semicolon</code> to <code>&quot;always&quot;</code> or <code>&quot;never&quot;</code> in Prettier&rsquo;s configuration.</li>
+</ul>
+<h3 id="5-no-dangling-promises">5. <strong>No Dangling Promises</strong></h3>
+<ul>
+<li>Use ESLint with the rule <code>@typescript-eslint/no-floating-promises</code>.</li>
+</ul>
+<h3 id="6-require-explicit-return">6. <strong>Require Explicit Return</strong></h3>
+<ul>
+<li>Configure ESLint with <code>@typescript-eslint/explicit-function-return-type</code>.</li>
+</ul>
+<h3 id="7-type-checks-enabled">7. <strong>Type Checks Enabled</strong></h3>
+<ul>
+<li>Ensure TypeScript is configured with strict mode in <code>tsconfig.json</code>:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="s2">&#34;strict&#34;</span><span class="err">:</span> <span class="kc">true</span><span class="err">,</span>
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;noEmit&#34;</span><span class="err">:</span> <span class="kc">true</span>
+</span></span></code></pre></div></li>
+</ul>
+<h3 id="8-no-eval">8. <strong>No Eval</strong></h3>
+<ul>
+<li>Set <code>&quot;disallowEval&quot;: true</code> in <code>tsconfig.json</code>.</li>
+</ul>
+<h3 id="9-disallow-consolelog-in-production">9. <strong>Disallow console.log in Production</strong></h3>
+<ul>
+<li>Use a custom linter or project-specific configurations to flag <code>console.log</code>.</li>
+</ul>
+<h3 id="10-import-order">10. <strong>Import Order</strong></h3>
+<ul>
+<li>Install and configure the Prettier plugin <code>import-organize</code> for import sorting.</li>
+</ul>
+<h3 id="11-no-duplicate-imports">11. <strong>No Duplicate Imports</strong></h3>
+<ul>
+<li>Enable TypeScript&rsquo;s <code>--allow-duplicate-imports</code> with <code>false</code> in <code>tsconfig.json</code>.</li>
+</ul>
+<h3 id="12-function-parameter-validation">12. <strong>Function Parameter Validation</strong></h3>
+<ul>
+<li>Keep strict mode enabled (<code>&quot;strict&quot;: true</code>) in <code>tsconfig.json</code>.</li>
+</ul>
+<h3 id="13-require-async-return">13. <strong>Require Async Return</strong></h3>
+<ul>
+<li>Use ESLint rule <code>@typescript-eslint/require-await</code> for async functions.</li>
+</ul>
+<h3 id="14-export-style-default-vs-named">14. <strong>Export Style (Default vs Named)</strong></h3>
+<ul>
+<li>Configure Prettier or a linter to enforce consistent export styles.</li>
+</ul>
+<h3 id="15-file-extensions">15. <strong>File Extensions</strong></h3>
+<ul>
+<li>Ensure all TypeScript files end with <code>.ts</code> or <code>.tsx</code> by setting <code>&quot;fileExtensions&quot;: { &quot;typescript&quot;: [&quot;ts&quot;, &quot;tsx&quot;] }</code> in <code>cursor.json</code>.</li>
+</ul>
+<h3 id="16-require-strict-mode">16. <strong>Require Strict Mode</strong></h3>
+<ul>
+<li>Set <code>&quot;useStrict&quot;: true</code> in <code>tsconfig.json</code>.</li>
+</ul>
+<h3 id="17-no-dead-code">17. <strong>No Dead Code</strong></h3>
+<ul>
+<li>Use TSLint or ESLint to detect and remove unused code.</li>
+</ul>
+<h3 id="18-class-names-camelcase">18. <strong>Class Names CamelCase</strong></h3>
+<ul>
+<li>Enforce naming conventions through a linter or extension.</li>
+</ul>
+<h3 id="19-interface-vs-type-alias">19. <strong>Interface vs Type Alias</strong></h3>
+<ul>
+<li>Use custom linting rules in <code>linter.ts</code> to enforce style preferences.</li>
+</ul>
+<h3 id="20-file-structure">20. <strong>File Structure</strong></h3>
+<ul>
+<li>Organize your project structure into appropriate directories (e.g., <code>src/@types</code>,
+<code>src/components</code>) and use Cursor&rsquo;s file tree settings to maintain this structure.
+By following these steps, you can effectively configure TypeScript rules in Cursor IDE,
+enhancing code quality and consistency.</li>
+</ul>
+
+            
+            
+        </div>
+
+        <nav class="post-nav">
+            
+            <a class="nav-prev" href="https://blog.ramunasnognys.tech/posts/my-insane-blog-pipeline/">
+                <div class="nav-indicator">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                    <span>Previous</span>
+                </div>
+                <span class="nav-title">My Insane Blog Pipeline</span>
+            </a>
+            
+            
+            
+        </nav>
+    </article>
+    </div>
+
+    
+    <div class="table-of-contents">
+        <div class="toc-title">Table of Contents</div>
+        
+        
+        
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-formatting-with-prettier">1. <strong>Formatting with Prettier</strong></a></li>
+        <li><a href="#2-line-width">2. <strong>Line Width</strong></a></li>
+        <li><a href="#3-quotes-style">3. <strong>Quotes Style</strong></a></li>
+        <li><a href="#4-semicolons">4. <strong>Semicolons</strong></a></li>
+        <li><a href="#5-no-dangling-promises">5. <strong>No Dangling Promises</strong></a></li>
+        <li><a href="#6-require-explicit-return">6. <strong>Require Explicit Return</strong></a></li>
+        <li><a href="#7-type-checks-enabled">7. <strong>Type Checks Enabled</strong></a></li>
+        <li><a href="#8-no-eval">8. <strong>No Eval</strong></a></li>
+        <li><a href="#9-disallow-consolelog-in-production">9. <strong>Disallow console.log in Production</strong></a></li>
+        <li><a href="#10-import-order">10. <strong>Import Order</strong></a></li>
+        <li><a href="#11-no-duplicate-imports">11. <strong>No Duplicate Imports</strong></a></li>
+        <li><a href="#12-function-parameter-validation">12. <strong>Function Parameter Validation</strong></a></li>
+        <li><a href="#13-require-async-return">13. <strong>Require Async Return</strong></a></li>
+        <li><a href="#14-export-style-default-vs-named">14. <strong>Export Style (Default vs Named)</strong></a></li>
+        <li><a href="#15-file-extensions">15. <strong>File Extensions</strong></a></li>
+        <li><a href="#16-require-strict-mode">16. <strong>Require Strict Mode</strong></a></li>
+        <li><a href="#17-no-dead-code">17. <strong>No Dead Code</strong></a></li>
+        <li><a href="#18-class-names-camelcase">18. <strong>Class Names CamelCase</strong></a></li>
+        <li><a href="#19-interface-vs-type-alias">19. <strong>Interface vs Type Alias</strong></a></li>
+        <li><a href="#20-file-structure">20. <strong>File Structure</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+    
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            const id = entry.target.getAttribute('id');
+            const tocLink = document.querySelector(`.table-of-contents nav a[href="#${id}"]`);
+            
+            if (tocLink) {
+                if (entry.intersectionRatio > 0) {
+                    document.querySelectorAll('.table-of-contents nav a').forEach(link => {
+                        link.classList.remove('active');
+                    });
+                    tocLink.classList.add('active');
+                }
+            }
+        });
+    }, {
+        rootMargin: '-20% 0px -80% 0px'
+    });
+
+    document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]').forEach((header) => {
+        observer.observe(header);
+    });
+});
+</script>
+
+    </main>
+    <footer class="footer">
+    <div class="content-wrapper">
+        <p>&copy; 2025 Ramunas Nognys. All rights reserved.</p>
+    </div>
+</footer>
+
+    
+    <script src="/js/theme.min.js"></script>
+</body>
+</html>

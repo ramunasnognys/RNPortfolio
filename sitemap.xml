@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.ramunasnognys.tech/categories/</loc>
+    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/development/</loc>
+    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/ide/</loc>
+    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/posts/</loc>
+    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/categories/programming/</loc>
+    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/</loc>
+    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/</loc>
+    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/typescript/</loc>
+    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/posts/typescript-rules-cursor/</loc>
+    <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.ramunasnognys.tech/tags/blog/</loc>
     <lastmod>2025-01-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -23,16 +50,7 @@
     <loc>https://blog.ramunasnognys.tech/posts/my-insane-blog-pipeline/</loc>
     <lastmod>2025-01-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.ramunasnognys.tech/posts/</loc>
-    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.ramunasnognys.tech/</loc>
-    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.ramunasnognys.tech/tags/second-brain/</loc>
-    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.ramunasnognys.tech/tags/</loc>
     <lastmod>2025-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.ramunasnognys.tech/contact/</loc>
@@ -63,7 +81,5 @@
     <lastmod>2025-01-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.ramunasnognys.tech/blog/</loc>
-  </url><url>
-    <loc>https://blog.ramunasnognys.tech/categories/</loc>
   </url>
 </urlset>
