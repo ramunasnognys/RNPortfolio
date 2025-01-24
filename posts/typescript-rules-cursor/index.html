@@ -44,7 +44,7 @@
                     January 24, 2025
                 </time>
                 
-                <span class="reading-time">• 400 words • 2 min read</span>
+                <span class="reading-time">• 200 words • 1 min read</span>
             </div>
             <h1 class="post-title">TypeScript Rules in Cursor IDE</h1>
             
@@ -64,99 +64,50 @@
         <div class="post-content">
             
             
-            <p>To set up TypeScript rules in Cursor IDE, you can follow these organized steps based on the
-provided rules:</p>
-<h3 id="1-formatting-with-prettier">1. <strong>Formatting with Prettier</strong></h3>
-<ul>
-<li>Install and enable the Prettier extension in Cursor.</li>
-<li>Configure Prettier settings (e.g., <code>singleQuote: true</code>, <code>semicolon: 'always'</code>) in your
-project&rsquo;s <code>.prettierrc</code> or <code>prettier.config.js</code>.</li>
-</ul>
-<h3 id="2-line-width">2. <strong>Line Width</strong></h3>
-<ul>
-<li>In <code>tsconfig.json</code>, set:
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="s2">&#34;maxLineLength&#34;</span><span class="err">:</span> <span class="mi">80</span><span class="err">,</span>
-</span></span><span class="line"><span class="cl"><span class="s2">&#34;warnOnTruncatedLines&#34;</span><span class="err">:</span> <span class="kc">true</span>
-</span></span></code></pre></div></li>
-</ul>
-<h3 id="3-quotes-style">3. <strong>Quotes Style</strong></h3>
-<ul>
-<li>Configure Prettier to use single quotes in <code>.prettierrc</code> or <code>prettier.config.js</code>.</li>
-</ul>
-<h3 id="4-semicolons">4. <strong>Semicolons</strong></h3>
-<ul>
-<li>Set <code>semicolon</code> to <code>&quot;always&quot;</code> or <code>&quot;never&quot;</code> in Prettier&rsquo;s configuration.</li>
-</ul>
-<h3 id="5-no-dangling-promises">5. <strong>No Dangling Promises</strong></h3>
-<ul>
-<li>Use ESLint with the rule <code>@typescript-eslint/no-floating-promises</code>.</li>
-</ul>
-<h3 id="6-require-explicit-return">6. <strong>Require Explicit Return</strong></h3>
-<ul>
-<li>Configure ESLint with <code>@typescript-eslint/explicit-function-return-type</code>.</li>
-</ul>
-<h3 id="7-type-checks-enabled">7. <strong>Type Checks Enabled</strong></h3>
-<ul>
-<li>Ensure TypeScript is configured with strict mode in <code>tsconfig.json</code>:
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="s2">&#34;strict&#34;</span><span class="err">:</span> <span class="kc">true</span><span class="err">,</span>
-</span></span><span class="line"><span class="cl"><span class="s2">&#34;noEmit&#34;</span><span class="err">:</span> <span class="kc">true</span>
-</span></span></code></pre></div></li>
-</ul>
-<h3 id="8-no-eval">8. <strong>No Eval</strong></h3>
-<ul>
-<li>Set <code>&quot;disallowEval&quot;: true</code> in <code>tsconfig.json</code>.</li>
-</ul>
-<h3 id="9-disallow-consolelog-in-production">9. <strong>Disallow console.log in Production</strong></h3>
-<ul>
-<li>Use a custom linter or project-specific configurations to flag <code>console.log</code>.</li>
-</ul>
-<h3 id="10-import-order">10. <strong>Import Order</strong></h3>
-<ul>
-<li>Install and configure the Prettier plugin <code>import-organize</code> for import sorting.</li>
-</ul>
-<h3 id="11-no-duplicate-imports">11. <strong>No Duplicate Imports</strong></h3>
-<ul>
-<li>Enable TypeScript&rsquo;s <code>--allow-duplicate-imports</code> with <code>false</code> in <code>tsconfig.json</code>.</li>
-</ul>
-<h3 id="12-function-parameter-validation">12. <strong>Function Parameter Validation</strong></h3>
-<ul>
-<li>Keep strict mode enabled (<code>&quot;strict&quot;: true</code>) in <code>tsconfig.json</code>.</li>
-</ul>
-<h3 id="13-require-async-return">13. <strong>Require Async Return</strong></h3>
-<ul>
-<li>Use ESLint rule <code>@typescript-eslint/require-await</code> for async functions.</li>
-</ul>
-<h3 id="14-export-style-default-vs-named">14. <strong>Export Style (Default vs Named)</strong></h3>
-<ul>
-<li>Configure Prettier or a linter to enforce consistent export styles.</li>
-</ul>
-<h3 id="15-file-extensions">15. <strong>File Extensions</strong></h3>
-<ul>
-<li>Ensure all TypeScript files end with <code>.ts</code> or <code>.tsx</code> by setting <code>&quot;fileExtensions&quot;: { &quot;typescript&quot;: [&quot;ts&quot;, &quot;tsx&quot;] }</code> in <code>cursor.json</code>.</li>
-</ul>
-<h3 id="16-require-strict-mode">16. <strong>Require Strict Mode</strong></h3>
-<ul>
-<li>Set <code>&quot;useStrict&quot;: true</code> in <code>tsconfig.json</code>.</li>
-</ul>
-<h3 id="17-no-dead-code">17. <strong>No Dead Code</strong></h3>
-<ul>
-<li>Use TSLint or ESLint to detect and remove unused code.</li>
-</ul>
-<h3 id="18-class-names-camelcase">18. <strong>Class Names CamelCase</strong></h3>
-<ul>
-<li>Enforce naming conventions through a linter or extension.</li>
-</ul>
-<h3 id="19-interface-vs-type-alias">19. <strong>Interface vs Type Alias</strong></h3>
-<ul>
-<li>Use custom linting rules in <code>linter.ts</code> to enforce style preferences.</li>
-</ul>
-<h3 id="20-file-structure">20. <strong>File Structure</strong></h3>
-<ul>
-<li>Organize your project structure into appropriate directories (e.g., <code>src/@types</code>,
-<code>src/components</code>) and use Cursor&rsquo;s file tree settings to maintain this structure.
-By following these steps, you can effectively configure TypeScript rules in Cursor IDE,
-enhancing code quality and consistency.</li>
-</ul>
+            <p>Here are comprehensive TypeScript configuration rules for Cursor IDE. These settings enhance code quality, maintain consistency, and enforce best practices across your TypeScript projects. Copy the configurations below and apply them to your project files as needed.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// tsconfig.json
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="err">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;maxLineLength&#34;</span><span class="p">:</span> <span class="mi">80</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;warnOnTruncatedLines&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;strict&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;noEmit&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;disallowEval&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;--allow-duplicate-imports&#34;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;useStrict&#34;</span><span class="p">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1">// .prettierrc
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;singleQuote&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;semicolon&#34;</span><span class="p">:</span> <span class="s2">&#34;always&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1">// .eslintrc
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;rules&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;@typescript-eslint/no-floating-promises&#34;</span><span class="p">:</span> <span class="s2">&#34;error&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;@typescript-eslint/explicit-function-return-type&#34;</span><span class="p">:</span> <span class="s2">&#34;error&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;@typescript-eslint/require-await&#34;</span><span class="p">:</span> <span class="s2">&#34;error&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="c1">// cursor.json
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;fileExtensions&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;typescript&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;ts&#34;</span><span class="p">,</span> <span class="s2">&#34;tsx&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="err">}</span>
+</span></span></code></pre></div><p>Additional Configuration Steps:</p>
+<ol>
+<li>Install Prettier extension in Cursor</li>
+<li>Set up import-organize plugin for Prettier</li>
+<li>Configure custom linting rules in linter.ts for style preferences</li>
+<li>Set up project structure with src/@types and src/components directories</li>
+<li>Enable ESLint for dead code detection and code quality checks</li>
+<li>Implement naming convention rules through linter configuration</li>
+</ol>
 
             
             
@@ -184,34 +135,7 @@ enhancing code quality and consistency.</li>
         
         
         
-        <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#1-formatting-with-prettier">1. <strong>Formatting with Prettier</strong></a></li>
-        <li><a href="#2-line-width">2. <strong>Line Width</strong></a></li>
-        <li><a href="#3-quotes-style">3. <strong>Quotes Style</strong></a></li>
-        <li><a href="#4-semicolons">4. <strong>Semicolons</strong></a></li>
-        <li><a href="#5-no-dangling-promises">5. <strong>No Dangling Promises</strong></a></li>
-        <li><a href="#6-require-explicit-return">6. <strong>Require Explicit Return</strong></a></li>
-        <li><a href="#7-type-checks-enabled">7. <strong>Type Checks Enabled</strong></a></li>
-        <li><a href="#8-no-eval">8. <strong>No Eval</strong></a></li>
-        <li><a href="#9-disallow-consolelog-in-production">9. <strong>Disallow console.log in Production</strong></a></li>
-        <li><a href="#10-import-order">10. <strong>Import Order</strong></a></li>
-        <li><a href="#11-no-duplicate-imports">11. <strong>No Duplicate Imports</strong></a></li>
-        <li><a href="#12-function-parameter-validation">12. <strong>Function Parameter Validation</strong></a></li>
-        <li><a href="#13-require-async-return">13. <strong>Require Async Return</strong></a></li>
-        <li><a href="#14-export-style-default-vs-named">14. <strong>Export Style (Default vs Named)</strong></a></li>
-        <li><a href="#15-file-extensions">15. <strong>File Extensions</strong></a></li>
-        <li><a href="#16-require-strict-mode">16. <strong>Require Strict Mode</strong></a></li>
-        <li><a href="#17-no-dead-code">17. <strong>No Dead Code</strong></a></li>
-        <li><a href="#18-class-names-camelcase">18. <strong>Class Names CamelCase</strong></a></li>
-        <li><a href="#19-interface-vs-type-alias">19. <strong>Interface vs Type Alias</strong></a></li>
-        <li><a href="#20-file-structure">20. <strong>File Structure</strong></a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+        <nav id="TableOfContents"></nav>
     </div>
     
 </div>
