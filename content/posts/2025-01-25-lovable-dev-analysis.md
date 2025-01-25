@@ -1,10 +1,16 @@
-# Lovable: Revolutionizing AI-Powered Development - A Deep Dive
+---
+title: "Lovable: Revolutionizing AI-Powered Development"
+date: 2025-01-25
+draft: false
+author: "Hamish"
+tags: ["Lovable", "AI Development", "No-Code", "Web Development", "Figma"]
+categories: ["Development Tools"]
+source: "Income Stream Surfers"
+sourceURL: "https://www.youtube.com/watch?v=tR4d8Mz5Bgk"
+subscribers: "122K"
+---
 
-*Based on Episode 1 of the "FULL FREE Lovable Dev Course" by Income Stream Surfers (122K subscribers)*  
-*Source: [Why I Love Lovable Over Bolt, Cursor, etc](https://www.youtube.com/watch?v=tR4d8Mz5Bgk)*  
-*Author: Hamish*  
-*Published: January 25, 2025*  
-*URL: https://www.youtube.com/watch?v=tR4d8Mz5Bgk*
+# Lovable: Revolutionizing AI-Powered Development - A Deep Dive
 
 Lovable has emerged as a leading platform in AI-powered development, offering unique capabilities that set it apart from competitors like Bolt and Cursor. Here's a comprehensive analysis of its key features and advantages.
 

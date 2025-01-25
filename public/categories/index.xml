@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Ramunas Nognys</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.ramunasnognys.tech/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development Tools</title>
+      <link>https://blog.ramunasnognys.tech/categories/development-tools/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.ramunasnognys.tech/categories/development-tools/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Programming</title>
       <link>https://blog.ramunasnognys.tech/categories/programming/</link>
