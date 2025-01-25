@@ -5,13 +5,31 @@
     <loc>https://blog.ramunasnognys.tech/tags/ai-development/</loc>
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/aws/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/posts/building-a-production-ready-serverless-application-aws-url-shortener/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.ramunasnognys.tech/categories/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/categories/cloud-computing/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/categories/development/</loc>
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.ramunasnognys.tech/categories/development-tools/</loc>
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/devops/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.ramunasnognys.tech/tags/figma/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/infrastructure-as-code/</loc>
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.ramunasnognys.tech/tags/lovable/</loc>
@@ -26,10 +44,19 @@
     <loc>https://blog.ramunasnognys.tech/posts/</loc>
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/python/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.ramunasnognys.tech/</loc>
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/serverless/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.ramunasnognys.tech/tags/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/terraform/</loc>
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.ramunasnognys.tech/tags/web-development/</loc>
@@ -100,6 +127,8 @@
   </url><url>
     <loc>https://blog.ramunasnognys.tech/tags/personal-growth/</loc>
     <lastmod>2025-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/posts/personal-development-plan-pdp-for-devops-sre-role/</loc>
   </url><url>
     <loc>https://blog.ramunasnognys.tech/blog/</loc>
   </url>
