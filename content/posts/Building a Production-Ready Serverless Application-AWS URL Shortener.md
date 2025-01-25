@@ -55,6 +55,8 @@ aws configure
 # Enter AWS Access Key, Secret Key, and default region (e.g., us-east-1)  
 ```  
 
+>[!https://explore.skillbuilder.aws/learn/courses/223/aws-command-line-interface-cli-basics/lessons]
+
 **Step 2**: Create Terraform files.  
 ```hcl  
 # main.tf  
