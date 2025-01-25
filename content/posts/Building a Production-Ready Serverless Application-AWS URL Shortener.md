@@ -32,8 +32,7 @@ prerequisites: ["AWS Account", "Basic Python", "Command Line familiarity"]
 4. **GitHub Actions**: Automates deployment of infrastructure and code.  
 5. **CloudWatch**: Monitors logs and performance.  
 
-![Architecture Diagram](https://via.placeholder.com/600x300?text=Serverless+URL+Shortener+Architecture)  
-*(Replace with actual diagram showing components and data flow)*  
+![Pasted image 20250125094902.png](/images/Pasted%20image%2020250125094902.png)
 
 ---
 
