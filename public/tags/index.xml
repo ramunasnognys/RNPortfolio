@@ -190,5 +190,40 @@
       <guid>https://blog.ramunasnognys.tech/tags/personal-growth/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Bash</title>
+      <link>https://blog.ramunasnognys.tech/tags/bash/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.ramunasnognys.tech/tags/bash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conda</title>
+      <link>https://blog.ramunasnognys.tech/tags/conda/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.ramunasnognys.tech/tags/conda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Environment</title>
+      <link>https://blog.ramunasnognys.tech/tags/environment/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.ramunasnognys.tech/tags/environment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>https://blog.ramunasnognys.tech/tags/tutorial/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.ramunasnognys.tech/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Uv</title>
+      <link>https://blog.ramunasnognys.tech/tags/uv/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://blog.ramunasnognys.tech/tags/uv/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

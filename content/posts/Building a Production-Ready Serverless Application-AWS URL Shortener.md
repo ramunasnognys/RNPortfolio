@@ -55,7 +55,6 @@ aws configure
 # Enter AWS Access Key, Secret Key, and default region (e.g., us-east-1)  
 ```  
 
->[!https://explore.skillbuilder.aws/learn/courses/223/aws-command-line-interface-cli-basics/lessons]
 
 **Step 2**: Create Terraform files.  
 ```hcl  
@@ -257,3 +256,7 @@ output "api_url" {
 **Next Steps**: Add custom domains, authentication, or a frontend!  
 
 *(Replace placeholder URLs and test all code snippets before production use.)*
+
+### Rsources
+**AWS CLI Course**:  
+https://explore.skillbuilder.aws/learn/courses/223/aws-command-line-interface-cli-basics/lessons
