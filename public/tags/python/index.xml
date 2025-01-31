@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Ramunas Nognys</title>
-    <link>https://blog.ramunasnognys.tech/tags/python/</link>
+    <link>http://localhost:1313/tags/python/</link>
     <description>Recent content in Python on Ramunas Nognys</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.ramunasnognys.tech/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building a Production-Ready Serverless URL Shortener on AWS: A Step-by-Step Guide</title>
-      <link>https://blog.ramunasnognys.tech/posts/building-a-production-ready-serverless-application-aws-url-shortener/</link>
+      <link>http://localhost:1313/posts/building-a-production-ready-serverless-application-aws-url-shortener/</link>
       <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/posts/building-a-production-ready-serverless-application-aws-url-shortener/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://blog.ramunasnognys.tech/images/Pasted%20image%2020250125094350.png&#34; alt=&#34;Pasted image 20250125094350.png&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;[!info In the modern web landscape, serverless architectures have emerged as a powerful paradigm for building scalable applications without managing traditional infrastructure. Today, we&amp;rsquo;ll explore this concept by building a practical, production-ready URL shortener using AWS serverless services.]&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h1 id=&#34;building-a-production-ready-serverless-application-aws-url-shortener&#34;&gt;Building a Production-Ready Serverless Application: AWS URL Shortener&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Level&lt;/strong&gt;: Beginner | &lt;strong&gt;Tools&lt;/strong&gt;: AWS, Terraform, Python, GitHub Actions&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-project-overview&#34;&gt;1. Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Deploy a serverless URL shortener using AWS. Users can submit long URLs and receive shortened links via an API.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/building-a-production-ready-serverless-application-aws-url-shortener/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/Pasted%20image%2020250125094350.png&#34; alt=&#34;Pasted image 20250125094350.png&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;[!info In the modern web landscape, serverless architectures have emerged as a powerful paradigm for building scalable applications without managing traditional infrastructure. Today, we&amp;rsquo;ll explore this concept by building a practical, production-ready URL shortener using AWS serverless services.]&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h1 id=&#34;building-a-production-ready-serverless-application-aws-url-shortener&#34;&gt;Building a Production-Ready Serverless Application: AWS URL Shortener&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Level&lt;/strong&gt;: Beginner | &lt;strong&gt;Tools&lt;/strong&gt;: AWS, Terraform, Python, GitHub Actions&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-project-overview&#34;&gt;1. Project Overview&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Purpose&lt;/strong&gt;: Deploy a serverless URL shortener using AWS. Users can submit long URLs and receive shortened links via an API.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Python Environment Management in Bash: A Complete Guide</title>
-      <link>https://blog.ramunasnognys.tech/posts/python-environment-guide/</link>
+      <link>http://localhost:1313/posts/python-environment-guide/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/posts/python-environment-guide/</guid>
+      <guid>http://localhost:1313/posts/python-environment-guide/</guid>
       <description>&lt;h1 id=&#34;python-environment-management-in-bash-a-complete-guide&#34;&gt;Python Environment Management in Bash: A Complete Guide&lt;/h1&gt;&#xA;&lt;p&gt;Working with Python environments is crucial for maintaining clean, reproducible development setups. This guide will walk you through managing Python environments in Bash, using the Janus project as a practical example. We&amp;rsquo;ll cover both &lt;code&gt;uv&lt;/code&gt; and &lt;code&gt;conda&lt;/code&gt; approaches, helping you understand which might work best for your needs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;understanding-python-environments&#34;&gt;Understanding Python Environments&lt;/h2&gt;&#xA;&lt;p&gt;Before diving into the practical steps, let&amp;rsquo;s understand why we need virtual environments:&lt;/p&gt;</description>
     </item>
   </channel>

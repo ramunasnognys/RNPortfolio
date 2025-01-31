@@ -1199,7 +1199,7 @@ a.logo * {
 }
 
 .blog-item:hover {
-    background: rgba(129, 140, 248, 0.05);
+    background: rgba(255, 255, 255, 0.05);
     transform: translateY(-2px);
 }
 
@@ -2401,7 +2401,7 @@ article.post-single {
 
 .blog-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
 }
@@ -2529,4 +2529,52 @@ article.post-single {
 
 .post-content pre .chroma-number {
   color: var(--code-number-color);
+}
+
+/* Table styling - Dieter Rams inspired minimalism */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background: var(--card-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
+th, td {
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    text-align: left;
+    transition: background 0.3s ease;
+}
+
+th {
+    background: var(--bg-secondary);
+    color: var(--primary-color);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+tr:hover td {
+    background: rgba(var(--primary-rgb), 0.03);
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* Responsive tables */
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        border-radius: 4px;
+    }
+    
+    th, td {
+        min-width: 120px;
+    }
 }
