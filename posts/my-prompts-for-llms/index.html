@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> | Ramunas Nognys</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/theme.min.css">
+    
+    <link rel="stylesheet" href="/css/custom.min.e3c7ef98fdaf928ed19b2abf587f31fb9a65e9ea1616cf64e058e05a66c743a5.css" integrity="sha256-48fvmP2vko7Rmyq/WH8x&#43;5pl6eoWFs9k4FjgWmbHQ6U=">
+</head>
+<body>
+    <header class="header">
+    <div class="header-content">
+        <a href="/" class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="2" width="20" height="20" stroke="#7C3AED" stroke-width="2" fill="#7C3AED" fill-opacity="0.1"/>
+            </svg>
+            Ramunas Nognys
+        </a>
+        <nav class="nav-links">
+            <a href="/projects" class="nav-link">Projects</a>
+            <a href="/blog" class="nav-link">Blog</a>
+            <button class="theme-switch" id="theme-toggle" aria-label="Toggle theme">
+                <svg class="theme-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        
+<div class="content-wrapper">
+    <div class="post-container">
+        <article class="post-single">
+        <header class="post-header">
+            <div class="post-meta">
+                
+                <span class="reading-time">• 100 words • 0 min read</span>
+            </div>
+            <h1 class="post-title"></h1>
+            
+            
+        </header>
+
+        <div class="post-content">
+            
+            
+            <h1 id="create-grapg-chart-with-vizgrapgh-dot">Create Grapg Chart with VizGrapgh Dot</h1>
+<p><strong>Step 1</strong></p>
+<pre tabindex="0"><code>Draw a visually aesthetic graph as a dot file with subgraphs demonstrating the relationship between various things that are spoken about in this youtube video
+</code></pre><p><strong>Step 2</strong></p>
+<pre tabindex="0"><code>Assume all of these nodes and edges exist. Keep going. Add new ones and make it exhaustive. give me full updated grapgh
+</code></pre>
+            
+            
+        </div>
+
+        <nav class="post-nav">
+            
+            <a class="nav-prev" href="https://blog.ramunasnognys.tech/posts/personal-development-plan-pdp-for-devops-sre-role/">
+                <div class="nav-indicator">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                    <span>Previous</span>
+                </div>
+                <span class="nav-title"></span>
+            </a>
+            
+            
+            
+            <a class="nav-next" href="https://blog.ramunasnognys.tech/posts/python-environment-guide/">
+                <div class="nav-indicator">
+                    <span>Next</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </div>
+                <span class="nav-title">Python Environment Management in Bash: A Complete Guide</span>
+            </a>
+            
+        </nav>
+    </article>
+    </div>
+
+    
+    <div class="table-of-contents">
+        <div class="toc-title">Table of Contents</div>
+        
+        
+        
+        <nav id="TableOfContents"></nav>
+    </div>
+    
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            const id = entry.target.getAttribute('id');
+            const tocLink = document.querySelector(`.table-of-contents nav a[href="#${id}"]`);
+            
+            if (tocLink) {
+                if (entry.intersectionRatio > 0) {
+                    document.querySelectorAll('.table-of-contents nav a').forEach(link => {
+                        link.classList.remove('active');
+                    });
+                    tocLink.classList.add('active');
+                }
+            }
+        });
+    }, {
+        rootMargin: '-20% 0px -80% 0px'
+    });
+
+    document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]').forEach((header) => {
+        observer.observe(header);
+    });
+});
+</script>
+
+    </main>
+    <footer class="footer">
+    <div class="content-wrapper">
+        <p>&copy; 2025 Ramunas Nognys. All rights reserved.</p>
+    </div>
+</footer>
+
+    
+    <script src="/js/theme.min.js"></script>
+</body>
+</html>

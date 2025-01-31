@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.ramunasnognys.tech/categories/career-development/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/career-progression/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/categories/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/cloud-computing/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/categories/data-engineering/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/data-architecture/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/posts/from-junior-to-architect---the-2025-data-engineering-mastery-roadmap/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/mentorship/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/mlops/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/posts/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/professional-development/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/categories/technical-leadership/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/technical-leadership/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.ramunasnognys.tech/tags/ai-development/</loc>
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,9 +54,6 @@
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.ramunasnognys.tech/posts/building-a-production-ready-serverless-application-aws-url-shortener/</loc>
-    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.ramunasnognys.tech/categories/</loc>
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.ramunasnognys.tech/categories/cloud-computing/</loc>
@@ -41,19 +83,10 @@
     <loc>https://blog.ramunasnognys.tech/tags/no-code/</loc>
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.ramunasnognys.tech/posts/</loc>
-    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.ramunasnognys.tech/tags/python/</loc>
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.ramunasnognys.tech/</loc>
-    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.ramunasnognys.tech/tags/serverless/</loc>
-    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.ramunasnognys.tech/tags/</loc>
     <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.ramunasnognys.tech/tags/terraform/</loc>
@@ -146,9 +179,11 @@
     <loc>https://blog.ramunasnognys.tech/tags/uv/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://blog.ramunasnognys.tech/posts/my-prompts-for-llms/</loc>
+  </url><url>
     <loc>https://blog.ramunasnognys.tech/posts/personal-development-plan-pdp-for-devops-sre-role/</loc>
   </url><url>
-    <loc>https://blog.ramunasnognys.tech/posts/untitled/</loc>
+    <loc>https://blog.ramunasnognys.tech/posts/rays-fernando---blog-post-generator/</loc>
   </url><url>
     <loc>https://blog.ramunasnognys.tech/blog/</loc>
   </url>
