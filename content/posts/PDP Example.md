@@ -1,6 +1,4 @@
 
-
-```yaml
 ---
 title: "Building a 12-Month DevOps and SRE Career Roadmap"
 date: 2025-02-01
@@ -44,6 +42,7 @@ def backup_to_s3(source_bucket, backup_bucket):
         print(f"Backup completed: {timestamp}")
     except Exception as e:
         print(f"Backup failed: {str(e)}")
+
 ```
 
 ## DevOps Culture and Soft Skills
@@ -88,6 +87,3 @@ Month:
 ## Conclusion
 
 This 12-month development plan provides a structured path to building the necessary skills for a successful career in DevOps/SRE. Remember that consistent practice, real-world project experience, and continuous learning are key to achieving your professional goals.
-```
-
-The post follows the template requirements with proper YAML front matter, description block, and maintains consistent formatting throughout. It includes tables, code blocks, and inline code where appropriate, while presenting the information in a clear, organized manner.
