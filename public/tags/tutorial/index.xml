@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorial on Ramunas Nognys</title>
-    <link>http://localhost:1313/tags/tutorial/</link>
+    <link>https://blog.ramunasnognys.tech/tags/tutorial/</link>
     <description>Recent content in Tutorial on Ramunas Nognys</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.ramunasnognys.tech/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python Environment Management in Bash: A Complete Guide</title>
-      <link>http://localhost:1313/posts/python-environment-guide/</link>
+      <link>https://blog.ramunasnognys.tech/posts/python-environment-guide/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/python-environment-guide/</guid>
+      <guid>https://blog.ramunasnognys.tech/posts/python-environment-guide/</guid>
       <description>&lt;h1 id=&#34;python-environment-management-in-bash-a-complete-guide&#34;&gt;Python Environment Management in Bash: A Complete Guide&lt;/h1&gt;&#xA;&lt;p&gt;Working with Python environments is crucial for maintaining clean, reproducible development setups. This guide will walk you through managing Python environments in Bash, using the Janus project as a practical example. We&amp;rsquo;ll cover both &lt;code&gt;uv&lt;/code&gt; and &lt;code&gt;conda&lt;/code&gt; approaches, helping you understand which might work best for your needs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;understanding-python-environments&#34;&gt;Understanding Python Environments&lt;/h2&gt;&#xA;&lt;p&gt;Before diving into the practical steps, let&amp;rsquo;s understand why we need virtual environments:&lt;/p&gt;</description>
     </item>
   </channel>

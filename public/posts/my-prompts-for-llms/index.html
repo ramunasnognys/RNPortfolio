@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> | Ramunas Nognys</title>
@@ -9,7 +9,7 @@
     
     <link rel="stylesheet" href="/css/theme.min.css">
     
-    <link rel="stylesheet" href="/css/custom.min.e3c7ef98fdaf928ed19b2abf587f31fb9a65e9ea1616cf64e058e05a66c743a5.css" integrity="sha256-48fvmP2vko7Rmyq/WH8x&#43;5pl6eoWFs9k4FjgWmbHQ6U=">
+    <link rel="stylesheet" href="/css/custom.min.1600ca287e80200df552239856bdaefb9a848284a86dddf2d4dfd3990068144e.css" integrity="sha256-FgDKKH6AIA31UiOYVr2u&#43;5qEgoSobd3y1N/TmQBoFE4=">
 </head>
 <body>
     <header class="header">
@@ -40,7 +40,7 @@
         <header class="post-header">
             <div class="post-meta">
                 
-                <span class="reading-time">• 100 words • 0 min read</span>
+                <span class="reading-time">• 500 words • 2 min read</span>
             </div>
             <h1 class="post-title"></h1>
             
@@ -55,6 +55,58 @@
 <pre tabindex="0"><code>Draw a visually aesthetic graph as a dot file with subgraphs demonstrating the relationship between various things that are spoken about in this youtube video
 </code></pre><p><strong>Step 2</strong></p>
 <pre tabindex="0"><code>Assume all of these nodes and edges exist. Keep going. Add new ones and make it exhaustive. give me full updated grapgh
+</code></pre><p><strong>Enhanced prompts on OpenAI Playground with o3 -mini model</strong>
+<a href="https://platform.openai.com/playground/chat?models=o3-mini">https://platform.openai.com/playground/chat?models=o3-mini</a></p>
+<pre tabindex="0"><code>Create a visually aesthetic graph as a dot file that includes subgraphs to demonstrate the relationships between the various elements mentioned in this article.
+
+Make sure to utilize appropriate visual design principles to ensure the graph is easy to interpret and aesthetically pleasing.
+</code></pre><p><img src="/images/Pasted%20image%2020250201064608.png" alt="Pasted image 20250201064608.png"></p>
+<p><strong>Very detailed diagram made with o3-mini model</strong></p>
+<pre tabindex="0"><code>Create a visually aesthetic graph as a DOT file that includes subgraphs to demonstrate the relationships between various elements mentioned in the given article.
+Your task is to read through the article, identify the key elements and their relationships, and then translate that information into a graph described in the DOT language. Ensure the graph is easy to understand and visually appealing by applying appropriate visual design principles.
+# Steps
+1. Identify Key Elements: Read the article and list all the elements that will be part of the graph.
+2. Determine Relationships: Understand how these elements are related to each other.
+3. Design Subgraphs: Create subgraphs to represent logical groupings of elements.
+4. Apply Visual Design Principles: Consider layout, color, node shapes, and edge styles to optimize readability and aesthetics.
+    - Use Consistent Node Shapes and Colors: For similar elements, use consistent styling.
+    - Optimize Layout: Aim for a clear, uncluttered structure. Hierarchies or dependency orders should be visually apparent.
+    - Edge Styles: Use different types of lines or arrows to depict different relationships.
+5. Create the DOT File: Write the graph in DOT notation, incorporating all the above details.
+6. Avoid disconnected arrow to elements
+# Output Format
+The output should be a DOT file (.dot) containing the structured graph description.
+# Examples
+Example 1: Simple Graph Structure
+- Elements and Relationships: { A -&gt; B, B -&gt; C, A -&gt; C }
+- Desired Output:
+dot
+digraph G {
+    A -&gt; B;
+    B -&gt; C;
+    A -&gt; C;
+}
+Example 2: Using Subgraphs
+- Elements and Subgroups: { A, B in Group1; C, D in Group2; Relationships: A -&gt; C, B -&gt; D }
+- Desired Output:
+dot
+digraph G {
+    subgraph cluster_Group1 {
+        label = &#34;Group 1&#34;;
+        A; B;
+    }
+    subgraph cluster_Group2 {
+        label = &#34;Group 2&#34;;
+        C; D;
+    }
+    A -&gt; C;
+    B -&gt; D;
+}
+(Examples should include more complex elements, relationships, and visually aesthetic elements to reflect realistic scenarios.)
+# Notes
+- Ensure that the graph is aesthetically pleasing by following best practices in layout design, such as symmetry and balance.
+- Use labels and tooltips within nodes and edges for clarity if the elements or relationships are complex.
+- Consider accessibility factors, such as color contrast, if using color coding.
 </code></pre>
             
             
@@ -62,7 +114,7 @@
 
         <nav class="post-nav">
             
-            <a class="nav-prev" href="http://localhost:1313/posts/personal-development-plan-pdp-for-devops-sre-role/">
+            <a class="nav-prev" href="https://blog.ramunasnognys.tech/posts/personal-development-plan-pdp-for-devops-sre-role/">
                 <div class="nav-indicator">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
                     <span>Previous</span>
@@ -72,7 +124,7 @@
             
             
             
-            <a class="nav-next" href="http://localhost:1313/posts/python-environment-guide/">
+            <a class="nav-next" href="https://blog.ramunasnognys.tech/posts/python-environment-guide/">
                 <div class="nav-indicator">
                     <span>Next</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
