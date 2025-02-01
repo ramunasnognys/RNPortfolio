@@ -6,11 +6,9 @@ draft: false
 author: "DeepSeek R1"
 tags: ["DevOps", "Career Development", "Cloud", "Infrastructure", "SRE"]
 categories: ["Career Growth"]
-excerpt: "A comprehensive guide to transitioning into DevOps and Site Reliability Engineering roles through structured skill development, practical projects, and continuous learning over a 12-month period."
+excerpt: "A comprehensive guide to transitioning into DevOps and Site Reliability Engineering roles through structured skill development, practical projects, and continuous learning over a 12-month period"
+
 ---
-
->[!info Navigate your journey into DevOps and Site Reliability Engineering with this structured 12-month development plan. Learn how to build essential technical skills, develop critical soft skills, and create a portfolio that demonstrates your capabilities in cloud infrastructure, automation, and systems thinking.]
-
 ## Introduction
 
 In the rapidly evolving landscape of technology infrastructure, the roles of **DevOps Engineer** and **Site Reliability Engineer (SRE)** have become crucial for organizations striving for operational excellence. This comprehensive development plan outlines a structured approach to building the necessary skills and experience over a 12-month period.
