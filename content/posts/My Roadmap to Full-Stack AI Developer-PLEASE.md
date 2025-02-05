@@ -1,6 +1,6 @@
 ---
-title: "Pleasssssse WORK"
-date: 2025-02-05
+title: "PLEASSEEEE"
+date: 2025-01-16
 tags:
   - blog
   - second-brain
