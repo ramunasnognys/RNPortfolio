@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Ramunas Nognys</title>
-    <link>https://blog.ramunasnognys.tech/categories/</link>
+    <link>http://localhost:58628/categories/</link>
     <description>Recent content in Categories on Ramunas Nognys</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.ramunasnognys.tech/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:58628/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Career Development</title>
-      <link>https://blog.ramunasnognys.tech/categories/career-development/</link>
+      <link>http://localhost:58628/categories/career-development/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/categories/career-development/</guid>
+      <guid>http://localhost:58628/categories/career-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud Computing</title>
-      <link>https://blog.ramunasnognys.tech/categories/cloud-computing/</link>
+      <link>http://localhost:58628/categories/cloud-computing/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/categories/cloud-computing/</guid>
+      <guid>http://localhost:58628/categories/cloud-computing/</guid>
       <description></description>
     </item>
     <item>
       <title>Development</title>
-      <link>https://blog.ramunasnognys.tech/categories/development/</link>
+      <link>http://localhost:58628/categories/development/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/categories/development/</guid>
+      <guid>http://localhost:58628/categories/development/</guid>
       <description></description>
     </item>
     <item>
       <title>DevOps</title>
-      <link>https://blog.ramunasnognys.tech/categories/devops/</link>
+      <link>http://localhost:58628/categories/devops/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/categories/devops/</guid>
+      <guid>http://localhost:58628/categories/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>SRE</title>
-      <link>https://blog.ramunasnognys.tech/categories/sre/</link>
+      <link>http://localhost:58628/categories/sre/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/categories/sre/</guid>
+      <guid>http://localhost:58628/categories/sre/</guid>
       <description></description>
     </item>
     <item>
       <title>Systems Engineering</title>
-      <link>https://blog.ramunasnognys.tech/categories/systems-engineering/</link>
+      <link>http://localhost:58628/categories/systems-engineering/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/categories/systems-engineering/</guid>
+      <guid>http://localhost:58628/categories/systems-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical Skills</title>
-      <link>https://blog.ramunasnognys.tech/categories/technical-skills/</link>
+      <link>http://localhost:58628/categories/technical-skills/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/categories/technical-skills/</guid>
+      <guid>http://localhost:58628/categories/technical-skills/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Engineering</title>
-      <link>https://blog.ramunasnognys.tech/categories/data-engineering/</link>
+      <link>http://localhost:58628/categories/data-engineering/</link>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/categories/data-engineering/</guid>
+      <guid>http://localhost:58628/categories/data-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical Leadership</title>
-      <link>https://blog.ramunasnognys.tech/categories/technical-leadership/</link>
+      <link>http://localhost:58628/categories/technical-leadership/</link>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/categories/technical-leadership/</guid>
+      <guid>http://localhost:58628/categories/technical-leadership/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>https://blog.ramunasnognys.tech/categories/programming/</link>
+      <link>http://localhost:58628/categories/programming/</link>
       <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/categories/programming/</guid>
+      <guid>http://localhost:58628/categories/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>https://blog.ramunasnognys.tech/categories/technology/</link>
+      <link>http://localhost:58628/categories/technology/</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/categories/technology/</guid>
+      <guid>http://localhost:58628/categories/technology/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,325 +2,325 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ramunas Nognys</title>
-    <link>https://blog.ramunasnognys.tech/tags/</link>
+    <link>http://localhost:58628/tags/</link>
     <description>Recent content in Tags on Ramunas Nognys</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.ramunasnognys.tech/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:58628/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>As</title>
-      <link>https://blog.ramunasnognys.tech/tags/as/</link>
+      <link>http://localhost:58628/tags/as/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/as/</guid>
+      <guid>http://localhost:58628/tags/as/</guid>
       <description></description>
     </item>
     <item>
       <title>AWS</title>
-      <link>https://blog.ramunasnognys.tech/tags/aws/</link>
+      <link>http://localhost:58628/tags/aws/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/aws/</guid>
+      <guid>http://localhost:58628/tags/aws/</guid>
       <description></description>
     </item>
     <item>
       <title>Career-Progression</title>
-      <link>https://blog.ramunasnognys.tech/tags/career-progression/</link>
+      <link>http://localhost:58628/tags/career-progression/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/career-progression/</guid>
+      <guid>http://localhost:58628/tags/career-progression/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud-Computing</title>
-      <link>https://blog.ramunasnognys.tech/tags/cloud-computing/</link>
+      <link>http://localhost:58628/tags/cloud-computing/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/cloud-computing/</guid>
+      <guid>http://localhost:58628/tags/cloud-computing/</guid>
       <description></description>
     </item>
     <item>
       <title>Code</title>
-      <link>https://blog.ramunasnognys.tech/tags/code/</link>
+      <link>http://localhost:58628/tags/code/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/code/</guid>
+      <guid>http://localhost:58628/tags/code/</guid>
       <description></description>
     </item>
     <item>
       <title>Continuous-Learning</title>
-      <link>https://blog.ramunasnognys.tech/tags/continuous-learning/</link>
+      <link>http://localhost:58628/tags/continuous-learning/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/continuous-learning/</guid>
+      <guid>http://localhost:58628/tags/continuous-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Devops</title>
-      <link>https://blog.ramunasnognys.tech/tags/devops/</link>
+      <link>http://localhost:58628/tags/devops/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/devops/</guid>
+      <guid>http://localhost:58628/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Infrastructure</title>
-      <link>https://blog.ramunasnognys.tech/tags/infrastructure/</link>
+      <link>http://localhost:58628/tags/infrastructure/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/infrastructure/</guid>
+      <guid>http://localhost:58628/tags/infrastructure/</guid>
       <description></description>
     </item>
     <item>
       <title>Professional-Development</title>
-      <link>https://blog.ramunasnognys.tech/tags/professional-development/</link>
+      <link>http://localhost:58628/tags/professional-development/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/professional-development/</guid>
+      <guid>http://localhost:58628/tags/professional-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://blog.ramunasnognys.tech/tags/python/</link>
+      <link>http://localhost:58628/tags/python/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/python/</guid>
+      <guid>http://localhost:58628/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Serverless</title>
-      <link>https://blog.ramunasnognys.tech/tags/serverless/</link>
+      <link>http://localhost:58628/tags/serverless/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/serverless/</guid>
+      <guid>http://localhost:58628/tags/serverless/</guid>
       <description></description>
     </item>
     <item>
       <title>Soft-Skills</title>
-      <link>https://blog.ramunasnognys.tech/tags/soft-skills/</link>
+      <link>http://localhost:58628/tags/soft-skills/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/soft-skills/</guid>
+      <guid>http://localhost:58628/tags/soft-skills/</guid>
       <description></description>
     </item>
     <item>
       <title>Sre</title>
-      <link>https://blog.ramunasnognys.tech/tags/sre/</link>
+      <link>http://localhost:58628/tags/sre/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/sre/</guid>
+      <guid>http://localhost:58628/tags/sre/</guid>
       <description></description>
     </item>
     <item>
       <title>Systems-Thinking</title>
-      <link>https://blog.ramunasnognys.tech/tags/systems-thinking/</link>
+      <link>http://localhost:58628/tags/systems-thinking/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/systems-thinking/</guid>
+      <guid>http://localhost:58628/tags/systems-thinking/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical-Skills</title>
-      <link>https://blog.ramunasnognys.tech/tags/technical-skills/</link>
+      <link>http://localhost:58628/tags/technical-skills/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/technical-skills/</guid>
+      <guid>http://localhost:58628/tags/technical-skills/</guid>
       <description></description>
     </item>
     <item>
       <title>Terraform</title>
-      <link>https://blog.ramunasnognys.tech/tags/terraform/</link>
+      <link>http://localhost:58628/tags/terraform/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/terraform/</guid>
+      <guid>http://localhost:58628/tags/terraform/</guid>
       <description></description>
     </item>
     <item>
       <title>Infrastructure-as-Code</title>
-      <link>https://blog.ramunasnognys.tech/tags/infrastructure-as-code/</link>
+      <link>http://localhost:58628/tags/infrastructure-as-code/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/infrastructure-as-code/</guid>
+      <guid>http://localhost:58628/tags/infrastructure-as-code/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical-Leadership</title>
-      <link>https://blog.ramunasnognys.tech/tags/technical-leadership/</link>
+      <link>http://localhost:58628/tags/technical-leadership/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/technical-leadership/</guid>
+      <guid>http://localhost:58628/tags/technical-leadership/</guid>
       <description></description>
     </item>
     <item>
       <title>Data-Architecture</title>
-      <link>https://blog.ramunasnognys.tech/tags/data-architecture/</link>
+      <link>http://localhost:58628/tags/data-architecture/</link>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/data-architecture/</guid>
+      <guid>http://localhost:58628/tags/data-architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Mentorship</title>
-      <link>https://blog.ramunasnognys.tech/tags/mentorship/</link>
+      <link>http://localhost:58628/tags/mentorship/</link>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/mentorship/</guid>
+      <guid>http://localhost:58628/tags/mentorship/</guid>
       <description></description>
     </item>
     <item>
       <title>Mlops</title>
-      <link>https://blog.ramunasnognys.tech/tags/mlops/</link>
+      <link>http://localhost:58628/tags/mlops/</link>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/mlops/</guid>
+      <guid>http://localhost:58628/tags/mlops/</guid>
       <description></description>
     </item>
     <item>
       <title>Development</title>
-      <link>https://blog.ramunasnognys.tech/tags/development/</link>
+      <link>http://localhost:58628/tags/development/</link>
       <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/development/</guid>
+      <guid>http://localhost:58628/tags/development/</guid>
       <description></description>
     </item>
     <item>
       <title>IDE</title>
-      <link>https://blog.ramunasnognys.tech/tags/ide/</link>
+      <link>http://localhost:58628/tags/ide/</link>
       <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/ide/</guid>
+      <guid>http://localhost:58628/tags/ide/</guid>
       <description></description>
     </item>
     <item>
       <title>TypeScript</title>
-      <link>https://blog.ramunasnognys.tech/tags/typescript/</link>
+      <link>http://localhost:58628/tags/typescript/</link>
       <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/typescript/</guid>
+      <guid>http://localhost:58628/tags/typescript/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>https://blog.ramunasnognys.tech/tags/blog/</link>
+      <link>http://localhost:58628/tags/blog/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/blog/</guid>
+      <guid>http://localhost:58628/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>https://blog.ramunasnognys.tech/tags/git/</link>
+      <link>http://localhost:58628/tags/git/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/git/</guid>
+      <guid>http://localhost:58628/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>https://blog.ramunasnognys.tech/tags/github/</link>
+      <link>http://localhost:58628/tags/github/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/github/</guid>
+      <guid>http://localhost:58628/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Hostinger</title>
-      <link>https://blog.ramunasnognys.tech/tags/hostinger/</link>
+      <link>http://localhost:58628/tags/hostinger/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/hostinger/</guid>
+      <guid>http://localhost:58628/tags/hostinger/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://blog.ramunasnognys.tech/tags/hugo/</link>
+      <link>http://localhost:58628/tags/hugo/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/hugo/</guid>
+      <guid>http://localhost:58628/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Knowledge-Management</title>
-      <link>https://blog.ramunasnognys.tech/tags/knowledge-management/</link>
+      <link>http://localhost:58628/tags/knowledge-management/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/knowledge-management/</guid>
+      <guid>http://localhost:58628/tags/knowledge-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Second-Brain</title>
-      <link>https://blog.ramunasnognys.tech/tags/second-brain/</link>
+      <link>http://localhost:58628/tags/second-brain/</link>
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/second-brain/</guid>
+      <guid>http://localhost:58628/tags/second-brain/</guid>
       <description></description>
     </item>
     <item>
       <title>Javascript</title>
-      <link>https://blog.ramunasnognys.tech/tags/javascript/</link>
+      <link>http://localhost:58628/tags/javascript/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/javascript/</guid>
+      <guid>http://localhost:58628/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>React</title>
-      <link>https://blog.ramunasnognys.tech/tags/react/</link>
+      <link>http://localhost:58628/tags/react/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/react/</guid>
+      <guid>http://localhost:58628/tags/react/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>https://blog.ramunasnognys.tech/tags/web/</link>
+      <link>http://localhost:58628/tags/web/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/web/</guid>
+      <guid>http://localhost:58628/tags/web/</guid>
       <description></description>
     </item>
     <item>
       <title>New</title>
-      <link>https://blog.ramunasnognys.tech/tags/new/</link>
+      <link>http://localhost:58628/tags/new/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/new/</guid>
+      <guid>http://localhost:58628/tags/new/</guid>
       <description></description>
     </item>
     <item>
       <title>Personal-Growth</title>
-      <link>https://blog.ramunasnognys.tech/tags/personal-growth/</link>
+      <link>http://localhost:58628/tags/personal-growth/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/personal-growth/</guid>
+      <guid>http://localhost:58628/tags/personal-growth/</guid>
       <description></description>
     </item>
     <item>
       <title>Ai</title>
-      <link>https://blog.ramunasnognys.tech/tags/ai/</link>
+      <link>http://localhost:58628/tags/ai/</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/ai/</guid>
+      <guid>http://localhost:58628/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Career</title>
-      <link>https://blog.ramunasnognys.tech/tags/career/</link>
+      <link>http://localhost:58628/tags/career/</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/career/</guid>
+      <guid>http://localhost:58628/tags/career/</guid>
       <description></description>
     </item>
     <item>
       <title>Learning</title>
-      <link>https://blog.ramunasnognys.tech/tags/learning/</link>
+      <link>http://localhost:58628/tags/learning/</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/learning/</guid>
+      <guid>http://localhost:58628/tags/learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>https://blog.ramunasnognys.tech/tags/technology/</link>
+      <link>http://localhost:58628/tags/technology/</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/technology/</guid>
+      <guid>http://localhost:58628/tags/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>Bash</title>
-      <link>https://blog.ramunasnognys.tech/tags/bash/</link>
+      <link>http://localhost:58628/tags/bash/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/bash/</guid>
+      <guid>http://localhost:58628/tags/bash/</guid>
       <description></description>
     </item>
     <item>
       <title>Conda</title>
-      <link>https://blog.ramunasnognys.tech/tags/conda/</link>
+      <link>http://localhost:58628/tags/conda/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/conda/</guid>
+      <guid>http://localhost:58628/tags/conda/</guid>
       <description></description>
     </item>
     <item>
       <title>Environment</title>
-      <link>https://blog.ramunasnognys.tech/tags/environment/</link>
+      <link>http://localhost:58628/tags/environment/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/environment/</guid>
+      <guid>http://localhost:58628/tags/environment/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorial</title>
-      <link>https://blog.ramunasnognys.tech/tags/tutorial/</link>
+      <link>http://localhost:58628/tags/tutorial/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/tutorial/</guid>
+      <guid>http://localhost:58628/tags/tutorial/</guid>
       <description></description>
     </item>
     <item>
       <title>Uv</title>
-      <link>https://blog.ramunasnognys.tech/tags/uv/</link>
+      <link>http://localhost:58628/tags/uv/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/tags/uv/</guid>
+      <guid>http://localhost:58628/tags/uv/</guid>
       <description></description>
     </item>
   </channel>
