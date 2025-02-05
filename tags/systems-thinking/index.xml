@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Systems-Thinking on Ramunas Nognys</title>
-    <link>https://blog.ramunasnognys.tech/tags/systems-thinking/</link>
+    <link>http://localhost:58628/tags/systems-thinking/</link>
     <description>Recent content in Systems-Thinking on Ramunas Nognys</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.ramunasnognys.tech/tags/systems-thinking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:58628/tags/systems-thinking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Art and Science of DevOps Career Development: A Systems Thinking Approach</title>
-      <link>https://blog.ramunasnognys.tech/posts/pdp-example/</link>
+      <link>http://localhost:58628/posts/pdp-example/</link>
       <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.ramunasnognys.tech/posts/pdp-example/</guid>
+      <guid>http://localhost:58628/posts/pdp-example/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;[!info This comprehensive guide introduces a systems-based approach to DevOps career development, integrating technical mastery with cultural understanding. Through the lens of cognitive scaffolding, we explore how to build a resilient and adaptive career framework.]&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;the-systems-nature-of-devops-evolution&#34;&gt;The Systems Nature of DevOps Evolution&lt;/h2&gt;&#xA;&lt;p&gt;In the rapidly evolving landscape of technology operations, DevOps represents more than a career path—it embodies a &lt;em&gt;complex adaptive system&lt;/em&gt; where technical expertise interweaves with cultural transformation. This guide presents a &lt;strong&gt;cognitive scaffolding&lt;/strong&gt; approach to career development, allowing you to navigate this complexity with purpose and clarity.&lt;/p&gt;</description>
     </item>
   </channel>
