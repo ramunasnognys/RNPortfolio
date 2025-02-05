@@ -70,3 +70,39 @@ digraph G {
 - Use labels and tooltips within nodes and edges for clarity if the elements or relationships are complex.
 - Consider accessibility factors, such as color contrast, if using color coding.
 ```
+
+```
+# cc-prompt.md
+
+# Development Guidelines
+
+1. Code Review Checklist:
+   - Verify purpose and functionality
+   - Check integration points
+   - Review for duplicates
+   - Assess limitations
+   
+2. Documentation Requirements:
+   - Update CHECKPOINT.md
+   - Maintain README.md
+   - Document regressions
+
+# cc-chronicle.md
+
+# Change Recording Process
+
+1. Record all changes in CHECKPOINT.md
+2. Update README.md with new features
+3. Document development decisions
+
+# cc-regression.md
+
+# Regression Handling
+
+4. Document issue in REGRESSIONS.md
+5. Include:
+   - Problem description
+   - Impact assessment
+   - Resolution steps
+   - Prevention measures
+```
