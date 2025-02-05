@@ -1,13 +1,17 @@
 ---
-title: "My Roadmap to Full-Stack AI Developer-PLEASE"
+title: "PLEASSEEEE"
 date: 2025-01-16
-url: "/posts/my-roadmap-to-full-stack-ai-developer-please"
 tags:
-  - ai
-  - development
-  - career
-  - learning
-  - technology
+  - blog
+  - second-brain
+  - blog
+  - knowledge-management
+  - Github
+  - Hugo
+  - Git
+  - Hostinger
+  - 
+
 draft: false
 ---
 
