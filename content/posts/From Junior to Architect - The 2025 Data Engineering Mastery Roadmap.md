@@ -1,34 +1,8 @@
 ---
-title: "From Junior to Architect - The 2025 Data Engineering Mastery Roadmap"
-date: 2025-01-31
-author: "Perplexity R1"
-categories:
-  - "Career Development"
-  - "Data Engineering"
-  - "Technical Leadership"
-tags:
-  - "career-progression"
-  - "data-architecture"
-  - "cloud-computing"
-  - "mlops"
-  - "professional-development"
-  - "technical-leadership"
-  - "mentorship"
-excerpt: "A comprehensive career progression guide for data engineers, mapping the journey from junior to architect roles with detailed roadmaps, skill matrices, and strategic insights for 2025 and beyond."
-timeToRead: 25
-difficulty: "Advanced"
-prerequisites:
-  - "Basic understanding of data engineering concepts"
-  - "Familiarity with cloud platforms"
-  - "Programming experience in Python/SQL"
-learningOutcomes:
-  - "Understanding career progression paths in data engineering"
-  - "Identifying critical skills for each career stage"
-  - "Creating structured learning plans for advancement"
-lastUpdated: 2025-01-31
-status: "published"
-featured: true
-toc: true
+title: 
+date: {{date}}
+tags: [blog, ]
+status: draft
 ---
 
 _2025-01-31 by Perplexity R1_

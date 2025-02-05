@@ -1,33 +1,18 @@
 ---
-title: "My Roadmap to Full-Stack AI Developer"
-date: 2024-02-04
-author: "Perplexity R1"
-categories:
-  - "Career Development"
-  - "Technology"
+title: "Pleasssssse WORK"
+date: 2025-02-05
 tags:
-  - "ai"
-  - "development"
-  - "career"
-  - "learning"
-  - "technology"
-excerpt: "A comprehensive roadmap for becoming a Full-Stack AI Developer in 2025, covering the progression from junior to senior levels with detailed skills, tools, and learning resources for each career stage."
-timeToRead: 30
-difficulty: "Advanced"
-prerequisites:
-  - "Basic programming knowledge"
-  - "Understanding of web development concepts"
-  - "Familiarity with AI/ML basics"
-learningOutcomes:
-  - "Master AI/ML integration at different career stages"
-  - "Develop cloud and DevOps expertise"
-  - "Build ethical AI systems and governance"
-  - "Lead technical teams and projects"
-lastUpdated: 2024-02-04
-status: "published"
-featured: true
-toc: true
-series: "AI Development Career Path"
+  - blog
+  - second-brain
+  - blog
+  - knowledge-management
+  - Github
+  - Hugo
+  - Git
+  - Hostinger
+  - 
+
+draft: false
 ---
 
 
