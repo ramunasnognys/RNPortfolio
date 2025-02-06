@@ -18,7 +18,7 @@ Set-Location $ScriptDir
 # Check for required commands
 $requiredCommands = @('git', 'hugo')
 
-# Check for Python command (python or python3)
+# Check for Python command
 if (Get-Command 'python' -ErrorAction SilentlyContinue) {
     $pythonCommand = 'python'
 } elseif (Get-Command 'python3' -ErrorAction SilentlyContinue) {
@@ -35,7 +35,7 @@ foreach ($cmd in $requiredCommands) {
     }
 }
 
-# Step 1: Check if Git is initialized, and initialize if necessary
+# Step 1: Git initialization check
 if (-not (Test-Path ".git")) {
     Write-Host "Initializing Git repository..."
     git init
@@ -49,7 +49,7 @@ if (-not (Test-Path ".git")) {
     }
 }
 
-# Step 2: Sync posts from Obsidian to Hugo content folder using Robocopy
+# Step 2: Sync posts
 Write-Host "Syncing posts from Obsidian..."
 
 if (-not (Test-Path $sourcePath)) {
@@ -62,7 +62,7 @@ if (-not (Test-Path $destinationPath)) {
     exit 1
 }
 
-# Use Robocopy to mirror the directories
+# Robocopy mirror
 $robocopyOptions = @('/MIR', '/Z', '/W:5', '/R:3')
 $robocopyResult = robocopy $sourcePath $destinationPath @robocopyOptions
 
@@ -71,14 +71,13 @@ if ($LASTEXITCODE -ge 8) {
     exit 1
 }
 
-# Step 3: Process Markdown files with Python script to handle image links
-Write-Host "Processing image links in Markdown files..."
+# Step 3: Process images
+Write-Host "Processing image links..."
 if (-not (Test-Path "images.py")) {
     Write-Error "Python script images.py not found."
     exit 1
 }
 
-# Execute the Python script
 try {
     & $pythonCommand images.py
 } catch {
@@ -86,8 +85,8 @@ try {
     exit 1
 }
 
-# Step 4: Build the Hugo site
-Write-Host "Building the Hugo site..."
+# Step 4: Hugo build
+Write-Host "Building Hugo site..."
 try {
     hugo
 } catch {
@@ -95,27 +94,23 @@ try {
     exit 1
 }
 
-# Step 5: Add changes to Git
-Write-Host "Staging changes for Git..."
+# Step 5: Git staging
+Write-Host "Staging changes..."
 $hasChanges = (git status --porcelain) -ne ""
-if (-not $hasChanges) {
-    Write-Host "No changes to stage."
-} else {
+if ($hasChanges) {
     git add .
 }
 
-# Step 6: Commit changes with a dynamic message
+# Step 6: Git commit
 $commitMessage = "New Blog Post on $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
 $hasStagedChanges = (git diff --cached --name-only) -ne ""
-if (-not $hasStagedChanges) {
-    Write-Host "No changes to commit."
-} else {
+if ($hasStagedChanges) {
     Write-Host "Committing changes..."
     git commit -m "$commitMessage"
 }
 
-# Step 7: Push all changes to the main branch
-Write-Host "Deploying to GitHub Main..."
+# Step 7: Git push
+Write-Host "Pushing to GitHub..."
 try {
     git push origin main
 } catch {
@@ -123,33 +118,31 @@ try {
     exit 1
 }
 
-# Step 8: Deploy the public folder to the hostinger using rsync
-Write-Host "Deploying to Hostinger using rsync..."
+# Step 8: Hostinger deployment
+Write-Host "Deploying to Hostinger..."
 
-$remotePath = "u765550710@blog.ramunasgnognys.tech:/home/u765550710/domains/blog.ramunasgnognys.tech/public_html"
+$remotePath = "u765550710@45.84.206.80:/home/u765550710/domains/blog.ramunasgnognys.tech/public_html"
 
-# Check if rsync is installed
 if (-not (Get-Command rsync -ErrorAction SilentlyContinue)) {
-    Write-Error "rsync is not installed. Please install rsync to continue."
+    Write-Error "rsync is not installed."
     exit 1
 }
 
-# rsync options
+# Quiet rsync deployment
 $rsyncOptions = @(
-    "-avz",          # archive mode, verbose, compress
-    "--delete",       # delete extraneous files on the receiving side
-    "--progress",     # show progress during transfer
-    "public/",       # source directory
-    "$remotePath"     # destination
+    "-az",
+    "-q",
+    "--delete",
+    "public/",
+    "$remotePath"
 )
 
-# Execute rsync
 try {
-    rsync @rsyncOptions
-    Write-Host "Successfully deployed to Hostinger using rsync."
+    $output = rsync @rsyncOptions 2>&1
+    Write-Host "✓ Deployment completed" -ForegroundColor Green
 } catch {
-    Write-Error "Failed to deploy to Hostinger using rsync."
+    Write-Error "× Deployment failed"
     exit 1
 }
 
-Write-Host "All done! Site synced, processed, committed, built, and deployed."
+Write-Host "All done! Site deployed successfully."
