@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.ramunasnognys.tech/tags/blog/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/git/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/github/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/hostinger/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/hugo/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/knowledge-management/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/posts/my-insane-blog-pipeline/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/posts/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/second-brain/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.ramunasnognys.tech/tags/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.ramunasnognys.tech/contact/</loc>
     <lastmod>2025-01-08T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,16 +44,10 @@
     <loc>https://blog.ramunasnognys.tech/projects/</loc>
     <lastmod>2025-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.ramunasnognys.tech/</loc>
-    <lastmod>2025-01-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.ramunasnognys.tech/tags/react/</loc>
     <lastmod>2025-01-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.ramunasnognys.tech/projects/sample-project/</loc>
-    <lastmod>2025-01-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.ramunasnognys.tech/tags/</loc>
     <lastmod>2025-01-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.ramunasnognys.tech/tags/web/</loc>
