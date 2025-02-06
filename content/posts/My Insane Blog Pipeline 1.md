@@ -1,5 +1,5 @@
 ---
-title: "My Insane Blog Pipeline"
+title: "My Insane Blog Pipeline 1"
 date: 2025-01-16
 tags:
   - blog
